@@ -11,6 +11,12 @@ kanban-plugin: basic
 - [ ] Previous one
 
 
+## Next list
+
+- [ ] Does it vertical
+- [ ] Or is it horizontal
+
+
 
 
 %% kanban:settings
