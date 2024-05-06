@@ -6,6 +6,9 @@ kanban-plugin: basic
 
 ## JobInterview
 
+- [ ] Test Kanban
+- [ ] Next Card
+- [ ] Previous one
 
 
 
