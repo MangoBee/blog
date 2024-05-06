@@ -1,3 +1,10 @@
+---
+title: Supervised Learning
+draft: false
+tags:
+  - AI
+---
+
 ## Table of Contents
 
 1. [VOCABULARY %% fold %%](#VOCABULARY%20%25%25%20fold%20%25%25)
