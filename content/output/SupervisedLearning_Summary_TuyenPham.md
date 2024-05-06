@@ -1,3 +1,8 @@
+---
+title: Supervised Learning Exercise Book
+draft: false
+tags: []
+---
 ## Table of Contents
 
 1. [VOCABULARY](#VOCABULARY%20%25%25%20fold%20%25%25)
