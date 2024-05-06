@@ -7,50 +7,50 @@ tags:
 
 ## Table of Contents
 
-1. [VOCABULARY %% fold %%](#VOCABULARY%20%25%25%20fold%20%25%25)
-1. [Introduction in Supervised learning Project %% fold %%](#Introduction%20in%20Supervised%20learning%20Project%20%25%25%20fold%20%25%25)
-1. [PCA Project  %% fold %%](#PCA%20Project%20%20%25%25%20fold%20%25%25)
-1. [KNN Classification Project %% fold %%](#KNN%20Classification%20Project%20%25%25%20fold%20%25%25)
-	1. [Handling Machine Learning Discrete/Categorical Data %% fold %%](#Handling%20Machine%20Learning%20Discrete/Categorical%20Data%20%25%25%20fold%20%25%25)
-		1. [Numerize categorical/discrete Data for Machine Learning %% fold %%](#Numerize%20categorical/discrete%20Data%20for%20Machine%20Learning%20%25%25%20fold%20%25%25)
-	1. [Result %% fold %%](#Result%20%25%25%20fold%20%25%25)
-1. [Decision Trees ClassificationProject %% fold %%](#Decision%20Trees%20ClassificationProject%20%25%25%20fold%20%25%25)
-	1. [Q&A %% fold %%](#Q&A%20%25%25%20fold%20%25%25)
-	1. [Results %% fold %%](#Results%20%25%25%20fold%20%25%25)
-1. [Evaluation Metric Project %% fold %%](#Evaluation%20Metric%20Project%20%25%25%20fold%20%25%25)
-1. [KNN Regression Project %% fold %%](#KNN%20Regression%20Project%20%25%25%20fold%20%25%25)
-1. [Decision Trees Regression Project %% fold %%](#Decision%20Trees%20Regression%20Project%20%25%25%20fold%20%25%25)
-1. [Knowledge %% fold %%](#Knowledge%20%25%25%20fold%20%25%25)
+1. [VOCABULARY](#VOCABULARY%20%25%25%20fold%20%25%25)
+1. [Introduction in Supervised learning Project](#Introduction%20in%20Supervised%20learning%20Project%20%25%25%20fold%20%25%25)
+1. [PCA Project ](#PCA%20Project%20%20%25%25%20fold%20%25%25)
+1. [KNN Classification Project](#KNN%20Classification%20Project%20%25%25%20fold%20%25%25)
+	1. [Handling Machine Learning Discrete/Categorical Data](#Handling%20Machine%20Learning%20Discrete/Categorical%20Data%20%25%25%20fold%20%25%25)
+		1. [Numerize categorical/discrete Data for Machine Learning](#Numerize%20categorical/discrete%20Data%20for%20Machine%20Learning%20%25%25%20fold%20%25%25)
+	1. [Result](#Result%20%25%25%20fold%20%25%25)
+1. [Decision Trees ClassificationProject](#Decision%20Trees%20ClassificationProject%20%25%25%20fold%20%25%25)
+	1. [Q&A](#Q&A%20%25%25%20fold%20%25%25)
+	1. [Results](#Results%20%25%25%20fold%20%25%25)
+1. [Evaluation Metric Project](#Evaluation%20Metric%20Project%20%25%25%20fold%20%25%25)
+1. [KNN Regression Project](#KNN%20Regression%20Project%20%25%25%20fold%20%25%25)
+1. [Decision Trees Regression Project](#Decision%20Trees%20Regression%20Project%20%25%25%20fold%20%25%25)
+1. [Knowledge](#Knowledge%20%25%25%20fold%20%25%25)
 	1. [Cross Validation](#Cross%20Validation)
 	1. [Distance Measurement](#Distance%20Measurement)
-	1. [Supervised Learning %% fold %%](#Supervised%20Learning%20%25%25%20fold%20%25%25)
-		1. [Classification %% fold %%](#Classification%20%25%25%20fold%20%25%25)
-		1. [Regression %% fold %%](#Regression%20%25%25%20fold%20%25%25)
-	1. [K-Nearest neighbors %% fold %%](#K-Nearest%20neighbors%20%25%25%20fold%20%25%25)
-	1. [Decision Tree %% fold %%](#Decision%20Tree%20%25%25%20fold%20%25%25)
-		1. [How Does the Decision Tree Algorithm Work? %% fold %%](#How%20Does%20the%20Decision%20Tree%20Algorithm%20Work?%20%25%25%20fold%20%25%25)
-		1. [Attribute Selection Measures %% fold %%](#Attribute%20Selection%20Measures%20%25%25%20fold%20%25%25)
-	1. [Theorie der Dimensionalität %% fold %%](#Theorie%20der%20Dimensionalit%C3%A4t%20%25%25%20fold%20%25%25)
-	1. [Evaluation Metrics for Classification %% fold %%](#Evaluation%20Metrics%20for%20Classification%20%25%25%20fold%20%25%25)
-		1. [Q&A %% fold %%](#Q&A%20%25%25%20fold%20%25%25)
-		1. [Confusion Matrix (Wahrheitsmatrix) %% fold %%](#Confusion%20Matrix%20(Wahrheitsmatrix)%20%25%25%20fold%20%25%25)
-		1. [The Role of a Confusion Matrix %% fold %%](#The%20Role%20of%20a%20Confusion%20Matrix%20%25%25%20fold%20%25%25)
-		1. [F1 Score - Regulating Parameter for Extreme Case %% fold %%](#F1%20Score%20-%20Regulating%20Parameter%20for%20Extreme%20Case%20%25%25%20fold%20%25%25)
-		1. [ROC %% fold %%](#ROC%20%25%25%20fold%20%25%25)
-		1. [Generalisierung %% fold %%](#Generalisierung%20%25%25%20fold%20%25%25)
-	1. [Evaluation Metrics for Regression %% fold %%](#Evaluation%20Metrics%20for%20Regression%20%25%25%20fold%20%25%25)
-	1. [Algorithm Quantitative Comparision %% fold %%](#Algorithm%20Quantitative%20Comparision%20%25%25%20fold%20%25%25)
+	1. [Supervised Learning](#Supervised%20Learning%20%25%25%20fold%20%25%25)
+		1. [Classification](#Classification%20%25%25%20fold%20%25%25)
+		1. [Regression](#Regression%20%25%25%20fold%20%25%25)
+	1. [K-Nearest neighbors](#K-Nearest%20neighbors%20%25%25%20fold%20%25%25)
+	1. [Decision Tree](#Decision%20Tree%20%25%25%20fold%20%25%25)
+		1. [How Does the Decision Tree Algorithm Work?](#How%20Does%20the%20Decision%20Tree%20Algorithm%20Work?%20%25%25%20fold%20%25%25)
+		1. [Attribute Selection Measures](#Attribute%20Selection%20Measures%20%25%25%20fold%20%25%25)
+	1. [Theorie der Dimensionalität](#Theorie%20der%20Dimensionalit%C3%A4t%20%25%25%20fold%20%25%25)
+	1. [Evaluation Metrics for Classification](#Evaluation%20Metrics%20for%20Classification%20%25%25%20fold%20%25%25)
+		1. [Q&A](#Q&A%20%25%25%20fold%20%25%25)
+		1. [Confusion Matrix (Wahrheitsmatrix)](#Confusion%20Matrix%20(Wahrheitsmatrix)%20%25%25%20fold%20%25%25)
+		1. [The Role of a Confusion Matrix](#The%20Role%20of%20a%20Confusion%20Matrix%20%25%25%20fold%20%25%25)
+		1. [F1 Score - Regulating Parameter for Extreme Case](#F1%20Score%20-%20Regulating%20Parameter%20for%20Extreme%20Case%20%25%25%20fold%20%25%25)
+		1. [ROC](#ROC%20%25%25%20fold%20%25%25)
+		1. [Generalisierung](#Generalisierung%20%25%25%20fold%20%25%25)
+	1. [Evaluation Metrics for Regression](#Evaluation%20Metrics%20for%20Regression%20%25%25%20fold%20%25%25)
+	1. [Algorithm Quantitative Comparision](#Algorithm%20Quantitative%20Comparision%20%25%25%20fold%20%25%25)
 
-## VOCABULARY %% fold %%
-- `Tuples`: A tuple typically consists of an input data point (or instance) and the associated output or label. %% fold %%
+## VOCABULARY
+- `Tuples`: A tuple typically consists of an input data point (or instance) and the associated output or label.
 	- For example, in a dataset of images with corresponding labels indicating whether each image depicts a cat or a dog, each tuple would consist of an image and its corresponding class label (e.g., "cat" or "dog").
 - `Target Attribute`: Result or y attribute
 - *n_neighbors* in k-NN from scikit-learn: are the number of neighbors that will vote for the class of the target point
-## Introduction in Supervised learning Project %% fold %%
+## Introduction in Supervised learning Project
 - Full Guide - [Supervised Machine Learning | DataCamp](https://www.datacamp.com/blog/supervised-machine-learning)
 - Offline - [[SupervisedML_Introduction_Datacamp.pdf]]
 
-## PCA Project  %% fold %%
+## PCA Project 
 > [!question]- Why does `explained_variance_ratio_` doesnt required data input x?
 > The `explained_variance_ratio_` attribute in scikit-learn's PCA class doesn't explicitly need the input data `X` when accessed. The reason is that after you fit the PCA model using `pca_df.fit_transform(X)`, the model internally computes the explained variance ratios based on the data it was fitted to (i.e., `X`).
 
@@ -73,7 +73,7 @@ Explained variation per principal component
 | 4                   | 0.01206 |     |
 | 5                   | 0.00025 |     |
 
-## KNN Classification Project %% fold %%
+## KNN Classification Project
 - Full Guide - [K-Nearest Neighbors (KNN) Classification with scikit-learn | DataCamp](https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn)
 - Offline Guide - [[KNN_datacamp.pdf]]
 
@@ -151,19 +151,19 @@ Explained variation per principal component
 
 > [!question]- User i have three class labels, total support equal 200. how come doesnt it add up to 1000 (total rows of dataset)?
 > The "support" values in the classification_report represent the number of instances (data points) for each class in the testing set, not the total number of instances in the entire dataset. The support values are calculated based on the testing set used for evaluation, and they provide insights into the distribution of instances across different classes in the testing set.
-### Handling Machine Learning Discrete/Categorical Data %% fold %%
+### Handling Machine Learning Discrete/Categorical Data
 - Full Guide - [Handling Machine Learning Categorical Data with Python Tutorial | DataCamp](https://www.datacamp.com/tutorial/categorical-data)
 - Offline - [[HandlingCategoricalData_ML_Datacamp.pdf]]
-#### Numerize categorical/discrete Data for Machine Learning %% fold %%
+#### Numerize categorical/discrete Data for Machine Learning
 - One-hot encoding: Maschine, Mode, Produkt
-- Label encoding:  %% fold %%
+- Label encoding: 
 	- Drehzahl, Bearbeitungszeit.
 	- They are natural numerical data but present in discrete mode.
-### Result %% fold %%
-- Cross Validation %% fold %%
+### Result
+- Cross Validation
 	- ![[Pasted image 20231227222950.png]]
 	- k = 25
-- Confusion Matrix %% fold %%
+- Confusion Matrix
 	- ![[Pasted image 20231227212609.png]]
 
 |  | precision | recall | f1-score | support |
@@ -174,10 +174,10 @@ Explained variation per principal component
 | macro avg. | 0.98 | 0.99 | 0.98 | 200 |
 | weighted avg. | 0.99 | 0.98 | 0.99 | 200 |
 Accuracy: 0.98
-## Decision Trees ClassificationProject %% fold %%
+## Decision Trees ClassificationProject
 - Full Guide - [Python Decision Tree Classification Tutorial: Scikit-Learn DecisionTreeClassifier | DataCamp](https://www.datacamp.com/tutorial/decision-tree-classification-python)
 - Offline - [[DecisionTree_Datacamp.pdf]]
-### Q&A %% fold %%
+### Q&A
 > [!question]- Do Decision Trees Need Feature Scaling Or Normalization?
 > Decision trees, including those implemented in scikit-learn (a popular machine learning library in Python), do not inherently require data normalization. Decision trees are not sensitive to the scale of the input features because they make decisions based on threshold values for individual features.
 > 
@@ -258,7 +258,7 @@ Accuracy: 0.98
 >    - `Image()` is likely from an IPython or Jupyter environment, and it is used to display the image inline.
 > 
 > In summary, this code block exports a decision tree model (`clf`) to a PNG image file ('diabetes.png') by creating a Graphviz DOT representation of the tree and then converting it to an image using `pydotplus`. The resulting image is displayed using the `Image()` function.
-### Results %% fold %%
+### Results
 - Decision Tree Visualization unpruned- [[Pasted image 20231227001921.png]]
 ![[Pasted image 20231227215425.png]]
 
@@ -284,13 +284,13 @@ Accuracy: 0.98
 | weighted avg. | 0.99 | 0.98 | 0.99 | 200 |
 Accuracy: 0.98
 
-## Evaluation Metric Project %% fold %%
+## Evaluation Metric Project
 - Coding Evaluate Metrics for Classification - [Metrics To Evaluate Machine Learning Algorithms in Python - MachineLearningMastery.com](https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/)
 - Offline - [[EvaluationMetrics_Classification_ProgrammingGuide.pdf]]
 - Strategy: Plot Confusion Matrix + Classification report from SKlearn
 - Coding Evaluation Metrics for Regression - [Regression Metrics for Machine Learning - MachineLearningMastery.com](https://machinelearningmastery.com/regression-metrics-for-machine-learning/)
 - Offline - [[EvaluationMetrics_Regression_ProgrammingGuide.pdf]]
-## KNN Regression Project %% fold %%
+## KNN Regression Project
 > [!question]- Does KNN classification process equivalent KNN regression?
 > While the overall process is similar, there are a few key differences:
 > 
@@ -319,7 +319,7 @@ k = 5
 - RMSE: 1.6907
 - Relative Mean Absolute Error (MAPE): 1.3448%
 - R2 Score: 0.9624
-## Decision Trees Regression Project %% fold %%
+## Decision Trees Regression Project
 > [!question]- Does Decision Trees Classification similar to -Regression?
 > - For classification, you use DecisionTreeClassifier, while for regression, you use DecisionTreeRegressor.
 > - Evaluation metrics differ: accuracy and classification report for classification, and mean squared error (MSE) for regression.
@@ -333,7 +333,7 @@ MSE: 2.4477
 RMSE: 1.5645
 R2 Score: 0.9678
 
-## Knowledge %% fold %%
+## Knowledge
 ### Cross Validation
 > [!question]- What is the purpose of cross validation?
 > The main goals and purposes of cross-validation are:
@@ -398,24 +398,24 @@ Your choice of distance measure is a critical step in clustering, and it depends
 - Previous academic background.
 These are all valid clusters but differ in meaning. 
 Even though Euclidean distance is the most common distance used in most clustering software, other distance measures such as Manhattan distance, Canberra distance, Pearson or Spearman correlation, and Minkowski distance exist.
-### Supervised Learning %% fold %%
-- Based on the given data sets, the machine learning problem is categorized into two types: Classification and Regression. %% fold %%
+### Supervised Learning
+- Based on the given data sets, the machine learning problem is categorized into two types: Classification and Regression.
 	- If the given data has both input (training) values and output (target values) -> classification problem.
 	- If the dataset has continuous numerical values of attributes without any target labels, then it is a regression problem.
-	- Example %% fold %%
+	- Example
 		- Is it a Cat or Dog?
 		- How much will the house sell for?
-#### Classification %% fold %%
+#### Classification
 - Classification is a prediction problem that **predicts the categorical class labels**, which are discrete and unordered.
 - Two step process: Learning step and a classification step.
-- Available **Techniques**: %% fold %%
+- Available **Techniques**:
 	- Logistic Regression
 	- Decision Tree Classifier
 	- K Nearest Neighbor Classifier
 	- Random Forest Classifier
 	- Neural Networks
-#### Regression %% fold %%
-- Available Techniques: %% fold %%
+#### Regression
+- Available Techniques:
 	- Linear Regression
 	- Decision Tree Regressor
 	- K Nearest Neighbor Regressor
@@ -427,32 +427,32 @@ Even though Euclidean distance is the most common distance used in most clusteri
 > - To achieve higher accuracy, the best way is to test out different algorithms and try different parameters within each algorithm -> the best one can be selected by **cross validation**.
 > 	- Evaluation parameter: accuracy, training time, linearity, number of parameters and special cases
 > 	- Vergleich zu Kenzahlen für Klassifikatoren: Genauigkeit, Sensitivität und Spezifität, Positiver und negativer Vorhersagewert, F1-Score
-### K-Nearest neighbors %% fold %%
+### K-Nearest neighbors
 - An algorithm is said to be a lazy learner if it simply stores the tuples of the training set and waits until the test tuple is given.
 - Based on learning by analogy, k-NN compares a given test tuple with training tuples that are similar to it.
-- When given an unknown tuple, a k-NN classifier searches the pattern space for the **k training tuples** that are closet to the unknown tuple. %% fold %%
+- When given an unknown tuple, a k-NN classifier searches the pattern space for the **k training tuples** that are closet to the unknown tuple.
 	- Dieser Wert klein gewählt, so ist das Ergebnis sehr stark von der unmittelbaren Umgebung des Datenpunktes, und damit von eventuellen Ausreißern, abhängig.
 	- If k is chosen too large, many neighboring points and thus a large radius will be included in the classification, which also has a negative effect.
 - "closeness" is defined regarding a distance metric, such as Euclidean distance. 
-- A good value for K is determined experimentally. %% fold %%
+- A good value for K is determined experimentally.
 	- In der Praxis ist es sinnvoll, den Klassifikator mit verschiedenen Werten für k zu testen und dann **einen möglichst kleinen Wert für k** zu wählen, der noch robuste Ergebnisse liefert. Generell gilt, größere Datensätze mit einer höheren Anzahl an Datenpunkten jeder Klasse ermöglichen größere Werte von k und sind damit robuster.
 - die Klassifikationszeit, also die Zeit für die Klassifizierung eines einzelnen Datenpunktes, linear von der Gesamtanzahl der Datenpunkte abhängt. -> k-nearest-Neighbor-Algorithmus ist daher für sehr große Datensätze problematisch.
 - Auslegung point: k-Neighbor.
-### Decision Tree %% fold %%
-#### How Does the Decision Tree Algorithm Work? %% fold %%
+### Decision Tree
+#### How Does the Decision Tree Algorithm Work?
 The basic idea behind any decision tree algorithm is as follows:
 1. Select the best attribute using Attribute Selection Measures (ASM) to split the records.
 2. Make that attribute a decision node and breaks the dataset into smaller subsets.
-3. Start tree building by repeating this process recursively for each child until one of the conditions will match: %% fold %%
+3. Start tree building by repeating this process recursively for each child until one of the conditions will match:
     - All the tuples belong to the same attribute value.
     - There are no more remaining attributes.
     - There are no more instances.
 
 ![How does the Decision Tree Algorithm Work?](https://images.datacamp.com/image/upload/f_auto,q_auto:best/v1545934190/2_btay8n.png)
 
-#### Attribute Selection Measures %% fold %%
+#### Attribute Selection Measures
 - Not quiet understand
-### Theorie der Dimensionalität %% fold %%
+### Theorie der Dimensionalität
 > [!question]- Is there any approach to reduce dimensionality to discrete/categorical features?
 > Yes, dimensionality reduction approaches can be applied to datasets with discrete features. However, the choice of method may vary based on the nature of the data and the specific characteristics of the discrete features. Here are a few common approaches:
 > 
@@ -471,7 +471,7 @@ The basic idea behind any decision tree algorithm is as follows:
 
 - Dimensionalität: spricht über Anzahl der Eigenschaften Datensatz nötig, um Klassifikationen von eine Eigenschaft abzubilden und zu beschreiben.
 - At the same time, each additional property increases the distances between individual data points from each other by increasing the dimensionality.
-- Ansatz zur Reduzierung der Dimensionalität %% fold %%
+- Ansatz zur Reduzierung der Dimensionalität
 	1. Es werden so lange Eigenschaften aus dem Trainingsdatensatz entfernt, bis sich keine Verbesserung mehr (oder eine Verschlechterung) des Ergebnisses einstellt. 
 	2. Mehrere Eigenschaften werden unter Ausnutzung ihrer Korrelation miteinander kombiniert, wodurch sich die Anzahl der erforderlichen Dimensionen reduziert.
 > [!cite]+ Image [(p. 88)](zotero://open-pdf/library/items/M97SCPAP?page=88&annotation=LVRTGMN4)
@@ -479,17 +479,17 @@ The basic idea behind any decision tree algorithm is as follows:
 > ****
 
 - Informationsverlust Rechnung durch Bestimmtheitsmaß R^2
-- Arte von Kombi %% fold %%
+- Arte von Kombi
 	- Nimmt eine Eigenschaft von Korrelationspaar.
 	- oder bestimmt regressionsgerade und nutzt dies as Eigenschaften (Manuell verfahren).
 	- Statistische Verfahren - PCA: Same like above but the transformationmatrix will be calculated by statische verfahren.
-- Hauptkomponentenanalyse (PCA) %% fold %%
+- Hauptkomponentenanalyse (PCA)
 	- Function: turn high-dimensional data into a low-dimensional principal component.
 
-### Evaluation Metrics for Classification %% fold %%
+### Evaluation Metrics for Classification
 - Full Guide - [12 Important Model Evaluation Metrics for Machine Learning](https://www.analyticsvidhya.com/blog/2019/08/11-important-model-evaluation-error-metrics/)
 - Offline - [[SupervisedClassificationMetrics.pdf]]
-#### Q&A %% fold %%
+#### Q&A
 > [!tip]- Q1. What are evaluation metrics in machine learning?
 > 
 > A. Evaluation metrics quantify the performance of a machine learning model. It involves training a model and then comparing the predictions to expected values.
@@ -552,7 +552,7 @@ The basic idea behind any decision tree algorithm is as follows:
 
 > [!tip]- Why there is Positive and Negative Classification in Confusion Matrix
 > Its a **subjective** Evaluation. Its common when you classified binare values. For more than two class like Betriebmodus in AI UB 03 is this positive/negative not relevant anymore
-#### Confusion Matrix (Wahrheitsmatrix) %% fold %%
+#### Confusion Matrix (Wahrheitsmatrix)
 A confusion matrix is an N X N matrix, where N is the number of predicted classes. For the problem in hand, we have N=2, and hence we get a 2 X 2 matrix. It is a performance measurement for machine learning classification problems where the output can be two or more classes. Confusion matrix is a table with 4 different combinations of predicted and actual values. It is extremely useful for measuring precision-recall, Specificity, Accuracy, and most importantly, AUC-ROC curves.
 - **True Positive:** You predicted positive, and it’s true.
 - **True Negative:** You predicted negative, and it’s true.
@@ -570,13 +570,13 @@ A confusion matrix is an N X N matrix, where N is the number of predicted classe
 ![[Confusion_matrix71891.png]]
 ![[Confusion_matrix154557.png]]
 
-#### The Role of a Confusion Matrix %% fold %%
+#### The Role of a Confusion Matrix
 - To better comprehend the confusion matrix, you must understand the aim and why it is widely used.
-- When it comes to measuring a model’s performance or anything in general, people focus on accuracy. However, being heavily reliant on the accuracy metric can lead to limited decisions. Detailed breakdown by Confusion Matrix offers valuable benefits as follows: %% fold %%
+- When it comes to measuring a model’s performance or anything in general, people focus on accuracy. However, being heavily reliant on the accuracy metric can lead to limited decisions. Detailed breakdown by Confusion Matrix offers valuable benefits as follows:
 	- **Working with imbalanced data**: No data ever comes perfect, and the use of the accuracy metric should be evaluated on its predictive power. For example, working with a dataset where one class outweighs another will cause the model to achieve a higher accuracy rate as it will predict the majority class.
 	- **Error types**: Understanding and learning about your model's performance in a specific context will aid you in fine-tuning and improving its performance. For example, differentiating between the types of errors through a confusion matrix, such as FP and FN, will allow you to explore the model's limitations.
 	- **Trade-offs**: The trade-off between using different metrics in a Confusion Matrix is essential as they impact one another. For example, an increase in precision typically leads to a decrease in recall. This will guide you in improving the performance of the model using knowledge from impacted metric values.
-#### F1 Score - Regulating Parameter for Extreme Case %% fold %%
+#### F1 Score - Regulating Parameter for Extreme Case
 In the last section, we discussed precision and recall for classification problems and also highlighted the importance of choosing a precision/recall basis for our use case. What if, for a use case, we are trying to get the best precision and recall at the same time? F1-Score is the **harmonic mean** of precision and recall values for a classification problem. The formula for F1-Score is as follows:
 
 ![F1 score | evaluation metrics](https://av-eks-blogoptimized.s3.amazonaws.com/Screenshot-2019-05-14-at-12.png)
@@ -592,7 +592,7 @@ This seems simple. There are situations, however, for which a data scientist wou
 ![F-beta formula | evaluation metrics](https://av-eks-blogoptimized.s3.amazonaws.com/Screenshot-2019-05-14-at-1290473.png)
 
 Fbeta measures the effectiveness of a model with respect to a user who attaches β times as much importance to recall as precision.
-#### ROC %% fold %%
+#### ROC
 An **ROC curve** (**receiver operating characteristic curve**) is a graph showing the performance of a classification model at all classification **thresholds**. This curve plots two parameters:
 - True Positive Rate (TPR)
 - False Positive Rate (FPR)
@@ -602,9 +602,9 @@ An ROC curve plots TPR vs. FPR at different classification thresholds. Lowering 
 > ![[image-150-x53-y421.png]]
 > ****
 
-#### Generalisierung %% fold %%
+#### Generalisierung
 - It evaluate if the model overfitted, generalised or underfitted
-### Evaluation Metrics for Regression %% fold %%
+### Evaluation Metrics for Regression
 - Full Guide - [Know the best evaluation metrics for Regression](https://www.analyticsvidhya.com/blog/2021/05/know-the-best-evaluation-metrics-for-your-regression-model/)
 - Offline - [[SupervisedRegressionMetrics.pdf]]
 
@@ -629,7 +629,7 @@ An ROC curve plots TPR vs. FPR at different classification thresholds. Lowering 
 >    - **Formula:** $MAPE = \frac{1}{n} \sum_{i=1}^{n} \frac{|y_i - \hat{y}_i|}{|y_i|} \times 100$ 
 >    - **Interpretation:** MAPE is similar to MPE but uses absolute values, making it suitable for avoiding the issue of canceling out positive and negative errors.
 
-### Algorithm Quantitative Comparision %% fold %%
+### Algorithm Quantitative Comparision
 > [!cite]+ Image [(p. 136)](zotero://open-pdf/library/items/M97SCPAP?page=136&annotation=2HPVJ8FZ)
 > ![[image-143-x53-y477.png]]
 > ****
