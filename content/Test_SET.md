@@ -77,7 +77,7 @@ snap-store --quit && sudo snap refresh snap-store
 - *Extension > Tiling Assistant*
 - To Disable: TIling Popup, Tile Groups
 - Custom Shortcuts
-	- ![](attachment/4b85fb33d5886e914c261b5c14216c8c.png)
+	- ![](content/attachments/4b85fb33d5886e914c261b5c14216c8c.png)
 ### Install Command
 ```
 sudo apt install package-one
