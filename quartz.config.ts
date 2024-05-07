@@ -22,8 +22,8 @@ const config: QuartzConfig = {
       fontOrigin: "iA Writer Quattro S",
       cdnCaching: true,
       typography: {
-        header: "iA Writer Quattro S",
-        body: "iA Writer Quattro S",
+        header: "Schibsted Grotesk",
+        body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
       colors: {
