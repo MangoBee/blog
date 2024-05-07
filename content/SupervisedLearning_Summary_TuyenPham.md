@@ -1,7 +1,7 @@
 ---
-title: Supervised Learning Exercise Book
+title: Supervised Learning
 draft: false
-tags: []
+tags:
 ---
 ## Table of Contents
 
