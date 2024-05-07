@@ -77,7 +77,7 @@ snap-store --quit && sudo snap refresh snap-store
 - *Extension > Tiling Assistant*
 - To Disable: TIling Popup, Tile Groups
 - Custom Shortcuts
-	- ![](4b85fb33d5886e914c261b5c14216c8c.png)
+	- ![[4b85fb33d5886e914c261b5c14216c8c.png]]
 ### Install Command
 ```
 sudo apt install package-one
@@ -95,7 +95,7 @@ sudo sed -i "s/NoDisplay=true/NoDisplay=false/g" /etc/xdg/autostart/\*.desktop
 sudo sed -i "s/NoDisplay=false/NoDisplay=true/g" /etc/xdg/autostart/\*.desktop
 ```
 ### Move file to permission required folder
-Full Guide: [clipboard - How to copy files into /usr/local/? (permission denied) - Ask Ubuntu](https://askubuntu.com/questions/24952/how-to-copy-files-into-usr-local-permission-denied)
+Full Guide: [[permission denied) - Ask Ubuntu](https://askubuntu.com/questions/24952/how-to-copy-files-into-usr-local-permission-denied|clipboard - How to copy files into /usr/local/? (permission denied) - Ask Ubuntu]]
 ```
 /usr/local/bin/
 sudo -H nautilus

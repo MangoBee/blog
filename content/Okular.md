@@ -32,7 +32,7 @@
 - Set hot key for Inverted Color:
 	- Setting > Configure Toolbar > Configure Keyboard Shortcuts > Change colors > set "Ctrl+I"
 ## Darktheme 
-- [Install darkmode for KDE](https://askubuntu.com/questions/24780/how-to-make-kde-applications-look-native-in-gnome/1044419#1044419) app like Okular
+- [[https://askubuntu.com/questions/24780/how-to-make-kde-applications-look-native-in-gnome/1044419#1044419]] app like Okular
 	- sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
 	- echo "export QT_STYLE_OVERRIDE=kvantum" >> $HOME/.profile
 	- Restart PC
