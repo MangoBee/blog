@@ -2,102 +2,32 @@
 
 // put your custom CSS here!
 
-[saved-theme="dark"] {
-    article {
-        h1 {
-            color: rgb(255, 117, 127);
-        }
-
-        h2 {
-            color: rgb(224, 175, 104);
-        }
-
-        h3 {
-            color: rgb(158, 206, 106);
-        }
-
-        h4 {
-            color: rgb(125, 207, 255);
-        }
-
-        h5 {
-            color: rgb(122, 162, 247);
-        }
-
-        h6 {
-            color: rgb(187, 154, 247);
-        }
-    }
-
-    strong,
-    code {
-        color: #7dcfff !important;
-    }
-
-    span.text-highlight {
-         
-        background-color: rgba(255, 158, 100, 0.4) !important;
-    }
-
-    em {
-        color: #7dcfff !important;
-        ;
-     }
-
-     ::selection {
-        background: rgba(39, 71, 125, 0.6);
-      }
-}
-
-[saved-theme="light"] {
-article {
-        h1 {
-            color: #8c4308;
-    
-        }
-
-        h2 {
-            color: rgb(143, 94, 21);
-        }
-
-        h3 {
-            color: #33635c;
-        }
-
-        h4 {
-            color: rgb(15, 75, 110);
-        }
-
-        h5 {
-            color: rgb(52, 84, 138);
-        }
-
-        h6 {
-            color: rgb(90, 74, 120);
-        }
-    }
-
-    strong{
-        color: #0F4B6E !important;
-    }
-    
-    em {
-        color:#0F4B6E !important;
-    }
-
-    code {
-      color: #343B58 !important; /* tokyonight foreground */
-      background-color: #C3C5C9;
-    }
-
-    span.text-highlight {
-        color: #343B58 !important;
-        background: #BCA093 !important;
-    }
-
-}
-
-::selection {
-    background: rgba(39,71,125,0.6)!important;
-    // color: var(--darkgray);
+theme: {
+    typography: {
+      header: "Lora",
+      body: "Inter",
+      code: "Fira Code",
+    },
+    colors: {
+      lightMode: {
+        light: "#eff1f5",
+        lightgray: "#dce0e8",
+        gray: "#8c8fa1",
+        darkgray: "#4c4f69",
+        dark: "#4f4f7f",
+        secondary: "#40a02b",
+        tertiary: "#209fb5",
+        highlight: "rgba(143, 159, 169, 0.15)",
+      },
+      darkMode: {
+        light: "#1e1e2e",
+        lightgray: "#6c7086",
+        gray: "#a6adc8",
+        darkgray: "#cdd6f4",
+        dark: "#cdd6f4",
+        secondary: "#a6e3a1",
+        tertiary: "#89dceb",
+        highlight: "rgba(143, 159, 169, 0.15)",
+      },
+    },
   }
