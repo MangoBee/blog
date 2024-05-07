@@ -3,7 +3,7 @@ title: Supervised Learning
 draft: false
 tags:
 ---
-## Table of Contents
+l## Table of Contents
 
 1. [VOCABULARY](#VOCABULARY%20%25%25%20fold%20%25%25)
 1. [Introduction in Supervised learning Project](#Introduction%20in%20Supervised%20learning%20Project%20%25%25%20fold%20%25%25)
