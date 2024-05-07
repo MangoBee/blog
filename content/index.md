@@ -6,7 +6,8 @@ title: Welcome to MangoBee Website
 
 --- 
 #### Activities
-![[07603c3ac364fc229dbaefe05b4fc50f.png|This is Figure Title]]
+![[07603c3ac364fc229dbaefe05b4fc50f.png]]
+*This is image caption*
 #### Changelog
 
 |   New                                                                                                                                                                                                   |   Update   |   Drop                 |
