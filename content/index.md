@@ -6,7 +6,7 @@ title: Welcome to MangoBee Website
 
 --- 
 #### Activities
-![[07603c3ac364fc229dbaefe05b4fc50f.png]]
+![[07603c3ac364fc229dbaefe05b4fc50f.png|This is Figure Title]]
 #### Changelog
 
 |   New                                                                                                                                                                                                   |   Update   |   Drop                 |
@@ -60,7 +60,7 @@ title: Welcome to MangoBee Website
 ## Table of Contents
 
 1. [[SupervisedLearning_Summary_TuyenPham#VOCABULARY]]
-1. [[#Introduction in Supervised learning Project]]
+1. [[SupervisedLearning_Summary_TuyenPham#Introduction in Supervised learning Project]]
 1. [[#PCA Project|PCA Project]]
 1. [[#KNN Classification Project|KNN Classification Project]]
 	1. [[#Handling Machine Learning Discrete/Categorical Data|Handling Machine Learning Discrete/Categorical Data]]
