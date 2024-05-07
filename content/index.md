@@ -59,8 +59,8 @@ title: Welcome to MangoBee Website
 - [w] Optimize initial time in Obsidian Mobile
 ## Table of Contents
 
-1. [[#VOCABULARY|VOCABULARY]]
-1. [[#Introduction in Supervised learning Project|Introduction in Supervised learning Project]]
+1. [[SupervisedLearning_Summary_TuyenPham#VOCABULARY]]
+1. [[#Introduction in Supervised learning Project]]
 1. [[#PCA Project|PCA Project]]
 1. [[#KNN Classification Project|KNN Classification Project]]
 	1. [[#Handling Machine Learning Discrete/Categorical Data|Handling Machine Learning Discrete/Categorical Data]]
