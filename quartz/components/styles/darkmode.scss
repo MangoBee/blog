@@ -22,7 +22,50 @@
 }
 
 :root[saved-theme="dark"] {
-  color-scheme: dark;
+  article {
+    h1 {
+        color: rgb(255, 117, 127);
+    }
+
+    h2 {
+        color: rgb(224, 175, 104);
+    }
+
+    h3 {
+        color: rgb(158, 206, 106);
+    }
+
+    h4 {
+        color: rgb(125, 207, 255);
+    }
+
+    h5 {
+        color: rgb(122, 162, 247);
+    }
+
+    h6 {
+        color: rgb(187, 154, 247);
+    }
+}
+
+strong,
+code {
+    color: #7dcfff !important;
+}
+
+span.text-highlight {
+     
+    background-color: rgba(255, 158, 100, 0.4) !important;
+}
+
+em {
+    color: #7dcfff !important;
+    ;
+ }
+
+ ::selection {
+    background: rgba(39, 71, 125, 0.6);
+  }
 }
 
 :root[saved-theme="light"] {
