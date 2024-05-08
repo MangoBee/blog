@@ -9,7 +9,6 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/MangoBee",
       "Linkedin": "https://discord.gg/cRFFHYye7t",
-      LinkedIn: "https://www.linkedin.com/in/mangobee/",
       Email: "twin.faam@gmail.com"
     },
   }),
