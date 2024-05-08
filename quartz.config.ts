@@ -38,7 +38,7 @@ const config: QuartzConfig = {
         darkMode: {
           light: '#4C566A', // Dark slate gray for lighter areas (e.g., card backgrounds)
           lightgray: '#434C5E', // Darker gray for subtle borders
-          gray: '#3B4252', // Even darker gray for additional elements like inactive states or deeper borders
+          gray: '#D8DEE9', // Even darker gray for additional elements like inactive states or deeper borders
           darkgray: '#D8DEE9', //Body text
           dark: '#D8DEE9', //Header text and icons
           secondary: '#D8DEE9', // Calm blue for links and interactive elements
