@@ -29,13 +29,13 @@ const config: QuartzConfig = {
       colors: {
         lightMode: {
           light: "#eceff4",       //Page background
-          lightgray: "#4c566a",   //Border color
-          gray: "#434c5e",        //Graph links and heavier borders
+          lightgray: "#d8dee9",   //Border color
+          gray: "#4c566a",        //Graph links and heavier borders
           darkgray: "#2e3440",    //Body text
           dark: "#bf616a",        //Header text and icons
           secondary: "#4c566a",   //link text and current graph node
           tertiary: "#434c5e",    //hover states and visited graph nodes
-          highlight: "#8fbcbb",    //internal link background
+          highlight: "#88c0d0",    //internal link background
         },
         darkMode: {
           light: '#2e3440',       //Page background
