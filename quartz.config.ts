@@ -36,8 +36,8 @@ const config: QuartzConfig = {
           highlight: '#8FBCBB' // Muted teal for internal link background and highlighted text
         },
         darkMode: {
-          light: '#2e3440', // Dark slate gray for lighter areas (e.g., card backgrounds)
-          lightgray: '#3b4252', // Darker gray for subtle borders
+          light: '#2e3440', // Page background - done
+          lightgray: '#4c566a', // border color
           gray: '#3b4252', // Even darker gray for additional elements like inactive states or deeper borders
           darkgray: '#d8dee9', //Body text
           dark: '#d8dee9', //Header text and icons
