@@ -39,9 +39,9 @@ const config: QuartzConfig = {
           light: '#4C566A', // Dark slate gray for lighter areas (e.g., card backgrounds)
           lightgray: '#434C5E', // Darker gray for subtle borders
           gray: '#3B4252', // Even darker gray for additional elements like inactive states or deeper borders
-          darkgray: '#D8DEE9', // Near-black for primary backgrounds
-          dark: '#D8DEE9', // Same near-black for text on lighter backgrounds
-          secondary: '#81A1C1', // Calm blue for links and interactive elements
+          darkgray: '#D8DEE9', //Body text
+          dark: '#D8DEE9', //Header text and icons
+          secondary: '#D8DEE9', // Calm blue for links and interactive elements
           tertiary: '#88C0D0', // Lighter, icy blue for hover states and focus indicators
           highlight: '#5E81AC' // A darker blue for highlighted elements, ensuring good contrast on dark backgrounds
         },
