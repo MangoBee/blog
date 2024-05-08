@@ -5,6 +5,7 @@ title: Welcome to MangoBee Website
 > — <cite>Augustine of Hippo</cite>
 
 --- 
+# Header
 #### Activities
 ![[07603c3ac364fc229dbaefe05b4fc50f.png]]
 *This is image caption*
@@ -61,35 +62,82 @@ title: Welcome to MangoBee Website
 ## Table of Contents
 
 1. [[SupervisedLearning_Summary_TuyenPham#VOCABULARY]]
-1. [[SupervisedLearning_Summary_TuyenPham#Introduction in Supervised learning Project]]
-1. [[#PCA Project|PCA Project]]
-1. [[#KNN Classification Project|KNN Classification Project]]
+2. [[SupervisedLearning_Summary_TuyenPham#Introduction in Supervised learning Project]]
+3. [[#PCA Project|PCA Project]]
+4. [[#KNN Classification Project|KNN Classification Project]]
 	1. [[#Handling Machine Learning Discrete/Categorical Data|Handling Machine Learning Discrete/Categorical Data]]
 		1. [[#Numerize categorical/discrete Data for Machine Learning|Numerize categorical/discrete Data for Machine Learning]]
-	1. [[#Result|Result]]
-1. [[#Decision Trees ClassificationProject|Decision Trees ClassificationProject]]
+	2. [[#Result|Result]]
+5. [[#Decision Trees ClassificationProject|Decision Trees ClassificationProject]]
 	1. [[#Q&A|Q&A]]
-	1. [[#Results|Results]]
-1. [[#Evaluation Metric Project|Evaluation Metric Project]]
-1. [[#KNN Regression Project|KNN Regression Project]]
-1. [[#Decision Trees Regression Project|Decision Trees Regression Project]]
-1. [[#Knowledge|Knowledge]]
+	2. [[#Results|Results]]
+6. [[#Evaluation Metric Project|Evaluation Metric Project]]
+7. [[#KNN Regression Project|KNN Regression Project]]
+8. [[#Decision Trees Regression Project|Decision Trees Regression Project]]
+9. [[#Knowledge|Knowledge]]
 	1. [[#Cross Validation|Cross Validation]]
-	1. [[#Distance Measurement|Distance Measurement]]
-	1. [[#Supervised Learning|Supervised Learning]]
+	2. [[#Distance Measurement|Distance Measurement]]
+	3. [[#Supervised Learning|Supervised Learning]]
 		1. [[#Classification|Classification]]
-		1. [[#Regression|Regression]]
-	1. [[#K-Nearest neighbors|K-Nearest neighbors]]
-	1. [[#Decision Tree|Decision Tree]]
+		2. [[#Regression|Regression]]
+	4. [[#K-Nearest neighbors|K-Nearest neighbors]]
+	5. [[#Decision Tree|Decision Tree]]
 		1. [[#How Does the Decision Tree Algorithm Work?|How Does the Decision Tree Algorithm Work?]]
-		1. [[#Attribute Selection Measures|Attribute Selection Measures]]
-	1. [[#Theorie der Dimensionalität|Theorie der Dimensionalität]]
-	1. [[#Evaluation Metrics for Classification|Evaluation Metrics for Classification]]
+		2. [[#Attribute Selection Measures|Attribute Selection Measures]]
+	6. [[#Theorie der Dimensionalität|Theorie der Dimensionalität]]
+	7. [[#Evaluation Metrics for Classification|Evaluation Metrics for Classification]]
 		1. [[#Q&A|Q&A]]
-		1. [[#Confusion Matrix (Wahrheitsmatrix)|Confusion Matrix]]
-		1. [[#The Role of a Confusion Matrix|The Role of a Confusion Matrix]]
-		1. [[#F1 Score - Regulating Parameter for Extreme Case|F1 Score - Regulating Parameter for Extreme Case]]
-		1. [[#ROC|ROC]]
-		1. [[#Generalisierung|Generalisierung]]
-	1. [[#Evaluation Metrics for Regression|Evaluation Metrics for Regression]]
-	1. [[#Algorithm Quantitative Comparision|Algorithm Quantitative Comparision]]
+		2. [[#Confusion Matrix (Wahrheitsmatrix)|Confusion Matrix]]
+		3. [[#The Role of a Confusion Matrix|The Role of a Confusion Matrix]]
+		4. [[#F1 Score - Regulating Parameter for Extreme Case|F1 Score - Regulating Parameter for Extreme Case]]
+		5. [[#ROC|ROC]]
+		6. [[#Generalisierung|Generalisierung]]
+	8. [[#Evaluation Metrics for Regression|Evaluation Metrics for Regression]]
+	9. [[#Algorithm Quantitative Comparision|Algorithm Quantitative Comparision]]
+## Setup
+- Specify folders to lower display priority in Search: *File&links > Excluded files*
+	- Attachments, DailyNotes, Templates, etc.
+- *Property in Document: Hidden*
+- *Default location for new attachments (Where newly added attachments are placed) > In subfolder under current folder.*
+1. SpellCheck: English+Germany - off
+2. Edit/Default editing mode > Source mode
+3. Plugin: ON 
+	- Tag pane
+	- Page Preview
+	- Bookmarks
+4. Files 
+	- Delete Files  
+		- Setting/Files&Link/DeleteFiles > *move to Obsidian Trash*
+		- Location: ObsidianVault > HiddenFiles > *.Trash*
+	- **Set update Internal Links** 
+		- Setting/Files&Link > *Always update internal links*
+5. Themes: Manage > *Obsidian Nord*
+6. Uninstall Obsidian doesnt delete Vault in Document
+## Basic Syntax
+1. Link: [[Obsidian]]
+2. Tag: #ObsidianTagSyntax 
+3. Italic: *asterisks*
+4. Bold: **Big Nouns**
+5. List: Dash 
+	 - Dash1
+	 - Dash2
+	 1. NumberDotSpace
+	 2. NumberDotSpace2
+6. Fontsize manipulate: <font size=2>sample Text </font>, [More Info](https://linuxhint.com/markdown-font-size/).
+7. `Code line`
+```
+This is code block
+```
+
+$$\begin{align*}\\
+f(x+\Delta x) &= \sum\limits_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}(\Delta x)^{n}\\
+&= f(x) + f'(x) \Delta x + \frac{f''(x)}{2!} (\Delta x)²+ \dots\\
+equation \, not = align\\
+equation &= align
+\end{align*}$$
+### Header
+#### Header
+##### Header
+###### Header
+
+
