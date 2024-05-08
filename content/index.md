@@ -129,12 +129,15 @@ title: Welcome to MangoBee Website
 This is code block
 ```
 
-$$\begin{align*}\\
+$$
+\begin{align*}\\
 f(x+\Delta x) &= \sum\limits_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}(\Delta x)^{n}\\
 &= f(x) + f'(x) \Delta x + \frac{f''(x)}{2!} (\Delta x)²+ \dots\\
 equation \, not = align\\
 equation &= align
-\end{align*}$$
+\end{align*}
+$$
+
 ### Header
 #### Header
 ##### Header
