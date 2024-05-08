@@ -26,16 +26,6 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#eff1f5",
-          lightgray: "#dce0e8",
-          gray: "#8c8fa1",
-          darkgray: "#4c4f69",
-          dark: "#4f4f7f",
-          secondary: "#40a02b",
-          tertiary: "#209fb5",
-          highlight: "rgba(143, 159, 169, 0.15)",
-        },
-        darkMode: {
           light: '#ECEFF4', // Soft blueish white for page background
           lightgray: '#E5E9F0', // Light gray for borders
           gray: '#D8DEE9', // Gray for graph links and heavier borders
@@ -44,6 +34,16 @@ const config: QuartzConfig = {
           secondary: '#81A1C1', // Calm blue for link color and current graph nodes
           tertiary: '#88C0D0', // Lighter, icy blue for hover states and visited graph nodes
           highlight: '#8FBCBB' // Muted teal for internal link background and highlighted text
+        },
+        darkMode: {
+          light: '#4C566A', // Dark slate gray for lighter areas (e.g., card backgrounds)
+          lightgray: '#434C5E', // Darker gray for subtle borders
+          gray: '#3B4252', // Even darker gray for additional elements like inactive states or deeper borders
+          darkgray: '#2E3440', // Near-black for primary backgrounds
+          dark: '#2E3440', // Same near-black for text on lighter backgrounds
+          secondary: '#81A1C1', // Calm blue for links and interactive elements
+          tertiary: '#88C0D0', // Lighter, icy blue for hover states and focus indicators
+          highlight: '#5E81AC' // A darker blue for highlighted elements, ensuring good contrast on dark backgrounds
         },
       },
     }
