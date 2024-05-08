@@ -36,14 +36,14 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#1e1e2e",
-          lightgray: "#6c7086",
-          gray: "#a6adc8",
-          darkgray: "#cdd6f4",
-          dark: "#cdd6f4",
-          secondary: "#a6e3a1",
-          tertiary: "#89dceb",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: '#ECEFF4', // Soft blueish white for page background
+          lightgray: '#E5E9F0', // Light gray for borders
+          gray: '#D8DEE9', // Gray for graph links and heavier borders
+          darkgray: '#4C566A', // Dark slate gray for body text
+          dark: '#2E3440', // Near-black for header text and icons
+          secondary: '#81A1C1', // Calm blue for link color and current graph nodes
+          tertiary: '#88C0D0', // Lighter, icy blue for hover states and visited graph nodes
+          highlight: '#8FBCBB' // Muted teal for internal link background and highlighted text
         },
       },
     }
