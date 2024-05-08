@@ -17,35 +17,35 @@
       }
 
       h4 {
-          color: #88c0d0;
+          color: #d08770;
       }
 
       h5 {
-          color: #81a1c1;
+          color: #bf616a;
       }
 
       h6 {
-          color: #5e81ac;
+          color: #bf616a;
       }
   }
 
   strong,
   code {
-      color: #7dcfff !important;
+      color: #88c0d0 !important;
   }
 
   span.text-highlight {
        
-      background-color: rgba(255, 158, 100, 0.4) !important;
+      background-color: #81a1c1 !important;
   }
 
   em {
-      color: #7dcfff !important;
+      color: #88c0d0 !important;
       ;
    }
 
    ::selection {
-      background: rgba(39, 71, 125, 0.6);
+      background: #8fbcbb;
     }
 }
 

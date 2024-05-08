@@ -6,6 +6,57 @@ title: Welcome to MangoBee Website
 
 --- 
 # Header
+## Header
+### Header
+#### Header
+##### Header
+###### Header
+## Setup
+- Specify folders to lower display priority in Search: *File&links > Excluded files*
+	- Attachments, DailyNotes, Templates, etc.
+- *Property in Document: Hidden*
+- *Default location for new attachments (Where newly added attachments are placed) > In subfolder under current folder.*
+1. SpellCheck: English+Germany - off
+2. Edit/Default editing mode > Source mode
+3. Plugin: ON 
+	- Tag pane
+	- Page Preview
+	- Bookmarks
+4. Files 
+	- Delete Files  
+		- Setting/Files&Link/DeleteFiles > *move to Obsidian Trash*
+		- Location: ObsidianVault > HiddenFiles > *.Trash*
+	- **Set update Internal Links** 
+		- Setting/Files&Link > *Always update internal links*
+5. Themes: Manage > *Obsidian Nord*
+6. Uninstall Obsidian doesnt delete Vault in Document
+## Basic Syntax
+1. Link: [[Obsidian]]
+2. Tag: #ObsidianTagSyntax 
+3. Italic: *asterisks*
+4. Bold: **Big Nouns**
+5. List: Dash 
+	 - Dash1
+	 - Dash2
+	 1. NumberDotSpace
+	 2. NumberDotSpace2
+6. Fontsize manipulate: <font size=2>sample Text </font>, [More Info](https://linuxhint.com/markdown-font-size/).
+7. `Code line`
+8. ==This is Hightlight==
+9. ~~Strikeout~~
+```
+This is code block
+```
+
+$$
+\begin{align*}\\
+f(x+\Delta x) &= \sum\limits_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}(\Delta x)^{n}\\
+&= f(x) + f'(x) \Delta x + \frac{f''(x)}{2!} (\Delta x)²+ \dots\\
+equation \, not = align\\
+equation &= align
+\end{align*}
+$$
+
 #### Activities
 ![[07603c3ac364fc229dbaefe05b4fc50f.png]]
 *This is image caption*
@@ -94,53 +145,3 @@ title: Welcome to MangoBee Website
 		6. [[#Generalisierung|Generalisierung]]
 	8. [[#Evaluation Metrics for Regression|Evaluation Metrics for Regression]]
 	9. [[#Algorithm Quantitative Comparision|Algorithm Quantitative Comparision]]
-## Setup
-- Specify folders to lower display priority in Search: *File&links > Excluded files*
-	- Attachments, DailyNotes, Templates, etc.
-- *Property in Document: Hidden*
-- *Default location for new attachments (Where newly added attachments are placed) > In subfolder under current folder.*
-1. SpellCheck: English+Germany - off
-2. Edit/Default editing mode > Source mode
-3. Plugin: ON 
-	- Tag pane
-	- Page Preview
-	- Bookmarks
-4. Files 
-	- Delete Files  
-		- Setting/Files&Link/DeleteFiles > *move to Obsidian Trash*
-		- Location: ObsidianVault > HiddenFiles > *.Trash*
-	- **Set update Internal Links** 
-		- Setting/Files&Link > *Always update internal links*
-5. Themes: Manage > *Obsidian Nord*
-6. Uninstall Obsidian doesnt delete Vault in Document
-## Basic Syntax
-1. Link: [[Obsidian]]
-2. Tag: #ObsidianTagSyntax 
-3. Italic: *asterisks*
-4. Bold: **Big Nouns**
-5. List: Dash 
-	 - Dash1
-	 - Dash2
-	 1. NumberDotSpace
-	 2. NumberDotSpace2
-6. Fontsize manipulate: <font size=2>sample Text </font>, [More Info](https://linuxhint.com/markdown-font-size/).
-7. `Code line`
-```
-This is code block
-```
-
-$$
-\begin{align*}\\
-f(x+\Delta x) &= \sum\limits_{n=0}^{\infty}\frac{f^{(n)}(x)}{n!}(\Delta x)^{n}\\
-&= f(x) + f'(x) \Delta x + \frac{f''(x)}{2!} (\Delta x)²+ \dots\\
-equation \, not = align\\
-equation &= align
-\end{align*}
-$$
-
-### Header
-#### Header
-##### Header
-###### Header
-
-
