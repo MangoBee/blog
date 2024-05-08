@@ -4,55 +4,105 @@
 
 img + em {     display: block; text-align: center; }
 
-.theme-dark img {
-    display: block;
-    max-width: 80%;
-    padding: 0 auto 0 auto;
-    outline: none;
-    margin-left: auto;
-    margin-right: auto;
-    mix-blend-mode: screen;
-    filter: opacity(1);
+// ./quartz/styles/custom.scss
+@use "./base.scss";
+
+[saved-theme="dark"] {
+    article {
+        h1 {
+            color: rgb(255, 117, 127);
+        }
+
+        h2 {
+            color: rgb(224, 175, 104);
+        }
+
+        h3 {
+            color: rgb(158, 206, 106);
+        }
+
+        h4 {
+            color: rgb(125, 207, 255);
+        }
+
+        h5 {
+            color: rgb(122, 162, 247);
+        }
+
+        h6 {
+            color: rgb(187, 154, 247);
+        }
+    }
+
+    strong,
+    code {
+        color: #7dcfff !important;
+    }
+
+    span.text-highlight {
+         
+        background-color: rgba(255, 158, 100, 0.4) !important;
+    }
+
+    em {
+        color: #7dcfff !important;
+        ;
+     }
+
+     ::selection {
+        background: rgba(39, 71, 125, 0.6);
+      }
 }
 
-.theme-light img {
-    display: block;
-    max-width: 80%;
-    padding: 0 auto 0 auto;
-    outline: none;
-    margin-left: auto;
-    margin-right: auto;
-    mix-blend-mode: multiply;
-    filter: opacity(0.95);
+[saved-theme="light"] {
+article {
+        h1 {
+            color: #8c4308;
+    
+        }
+
+        h2 {
+            color: rgb(143, 94, 21);
+        }
+
+        h3 {
+            color: #33635c;
+        }
+
+        h4 {
+            color: rgb(15, 75, 110);
+        }
+
+        h5 {
+            color: rgb(52, 84, 138);
+        }
+
+        h6 {
+            color: rgb(90, 74, 120);
+        }
+    }
+
+    strong{
+        color: #0F4B6E !important;
+    }
+    
+    em {
+        color:#0F4B6E !important;
+    }
+
+    code {
+      color: #343B58 !important; /* tokyonight foreground */
+      background-color: #C3C5C9;
+    }
+
+    span.text-highlight {
+        color: #343B58 !important;
+        background: #BCA093 !important;
+    }
+
 }
 
-/*Emblemed images blending tweaks */
-
-.theme-dark .popover.hover-popover .markdown-preview-view img {
-    mix-blend-mode: screen;
-    /*filter: opacity(1);*/
-}
-
-.theme-light .popover.hover-popover .markdown-preview-view img {
-    mix-blend-mode: multiply;
-    /*filter: opacity(0.95);*/
-}
-
-/* Image dynamic colors inversion */
-
-.theme-dark span[src$="invert_B"] img{
-  filter: invert(1) hue-rotate(180deg);
-}
-
-.theme-light span[src$="#invert_W"] img{
-  filter: invert(1) hue-rotate(180deg);
-}
-.theme-dark span[src$="invert_B_C"] img{
-  filter: invert(1) hue-rotate(180deg) contrast(1.5);
-}
-
-.theme-light span[src$="#invert_W_C"] img{
-  filter: invert(1) hue-rotate(180deg) contrast(1.45);
-}
-
-/* adaptive-image.css */
+::selection {
+    background: rgba(39,71,125,0.6)!important;
+    // color: var(--darkgray);
+  }
