@@ -43,7 +43,7 @@ const config: QuartzConfig = {
           dark: '#ebcb8b',        //Header text and icons
           secondary: '#d8dee9',   //link colour, current graph node
           tertiary: '#3b4252',    //hover states and visited graph nodes - change
-          highlight: '#ebcb8b'    //internal link background, highlighted 
+          highlight: '#ebcb8b',    //internal link background, highlighted 
       },
     }
   },
