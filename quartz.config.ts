@@ -19,36 +19,34 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Lora",
+        body: "Inter",
+        code: "Fira Code",
       },
       colors: {
         lightMode: {
-          light: "rgb(213, 214, 219)",
-          lightgray: "#CBCCD1",
-          gray: "#9699a3",
-          darkgray: "#343b58",
-          dark: "#8C4351",
-          secondary: "#8c4308",
-          tertiary: "#0F7B6C",
-          highlight: "#CBCCD1",
-},
+          light: "#eff1f5",
+          lightgray: "#dce0e8",
+          gray: "#8c8fa1",
+          darkgray: "#4c4f69",
+          dark: "#4f4f7f",
+          secondary: "#40a02b",
+          tertiary: "#209fb5",
+          highlight: "rgba(143, 159, 169, 0.15)",
+        },
         darkMode: {
-          light: "#1a1b26", // bg
-          lightgray: "#414868", // fg
-          gray: "#7aa2f7", // date
-          darkgray: "#c0caf5", // text
-          dark: "#ff9e64", // headers
-          secondary: "#f7768e", // name, tittle
-          tertiary: "#73daca", // hover and visited nodes
-          highlight: "#414868",
-},
+          light: "#1e1e2e",
+          lightgray: "#6c7086",
+          gray: "#a6adc8",
+          darkgray: "#cdd6f4",
+          dark: "#cdd6f4",
+          secondary: "#a6e3a1",
+          tertiary: "#89dceb",
+          highlight: "rgba(143, 159, 169, 0.15)",
+        },
       },
-    },
+    }
   },
   plugins: {
     transformers: [
