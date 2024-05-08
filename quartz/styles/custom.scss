@@ -4,29 +4,6 @@
 
 img + em {     display: block; text-align: center; }
 
-/* Buttons Plugin styling */
-
-.dataview-button {
-
-  border-style: solid;
-  border-width: thin;
-  border-color: rgb(149, 213, 234);
-  color: rgb(149, 213, 234);
-  font-weight: bold;
-  background-color: transparent;
-  padding: 5px 15px;
-  font-size: 11px;
-}
-
-/* Dataview table row coloring and highlighting */
-
-tbody tr:hover {
-  border-color: rgb(149, 213, 234);
-  border-width: 2px;
-  border-style: solid;
-}
-
-tr:nth-child(even) { background-color: rgba(136, 192, 208, 0.1);}
 
 /* Nord customizations */
 
