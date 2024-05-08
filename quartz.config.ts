@@ -40,7 +40,7 @@ const config: QuartzConfig = {
           lightgray: '#434C5E', // Darker gray for subtle borders
           gray: '#3B4252', // Even darker gray for additional elements like inactive states or deeper borders
           darkgray: '#2E3440', // Near-black for primary backgrounds
-          dark: '#2E3440', // Same near-black for text on lighter backgrounds
+          dark: '#D8DEE9', // Same near-black for text on lighter backgrounds
           secondary: '#81A1C1', // Calm blue for links and interactive elements
           tertiary: '#88C0D0', // Lighter, icy blue for hover states and focus indicators
           highlight: '#5E81AC' // A darker blue for highlighted elements, ensuring good contrast on dark backgrounds
