@@ -40,10 +40,10 @@ const config: QuartzConfig = {
           lightgray: '#4c566a',   //Border color - done
           gray: '#3b4252',        //Graph links and heavier borders
           darkgray: '#d8dee9',    //Body text
-          dark: '#ebcb8b',        //Header text and icons
+          dark: '#d8dee9',        //Header text and icons
           secondary: '#d8dee9',   //link colour, current graph node
           tertiary: '#3b4252',    //hover states and visited graph nodes - change
-          highlight: '#ebcb8b',    //internal link background, highlighted 
+          highlight: '#4c566a'    //internal link background, highlighted 
       },
     }
   },
