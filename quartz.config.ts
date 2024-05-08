@@ -36,14 +36,14 @@ const config: QuartzConfig = {
           highlight: '#8FBCBB' // Muted teal for internal link background and highlighted text
         },
         darkMode: {
-          light: '#4C566A', // Dark slate gray for lighter areas (e.g., card backgrounds)
-          lightgray: '#434C5E', // Darker gray for subtle borders
-          gray: '#D8DEE9', // Even darker gray for additional elements like inactive states or deeper borders
-          darkgray: '#D8DEE9', //Body text
-          dark: '#D8DEE9', //Header text and icons
-          secondary: '#D8DEE9', // Calm blue for links and interactive elements
-          tertiary: '#88C0D0', // Lighter, icy blue for hover states and focus indicators
-          highlight: '#5E81AC' // A darker blue for highlighted elements, ensuring good contrast on dark backgrounds
+          light: '#2e3440', // Dark slate gray for lighter areas (e.g., card backgrounds)
+          lightgray: '#3b4252', // Darker gray for subtle borders
+          gray: '#3b4252', // Even darker gray for additional elements like inactive states or deeper borders
+          darkgray: '#d8dee9', //Body text
+          dark: '#d8dee9', //Header text and icons
+          secondary: '#d8dee9', // Calm blue for links and interactive elements
+          tertiary: '#4c566a', // Lighter, icy blue for hover states and focus indicators
+          highlight: '#4c566a' // A darker blue for highlighted elements, ensuring good contrast on dark backgrounds
         },
       },
     }
