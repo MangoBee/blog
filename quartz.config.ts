@@ -10,7 +10,7 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "🖋 MangoBee",
     enableSPA: true,
-    enablePopovers: false,
+    enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
@@ -19,33 +19,36 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
+      fontOrigin: "googleFonts",
+      cdnCaching: true,
       typography: {
-        header: "Lora",
-        body: "Inter",
-        code: "Fira Code",
+        header: "Schibsted Grotesk",
+        body: "Source Sans Pro",
+        code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: '#ECEFF4', // Soft blueish white for page background
-          lightgray: '#E5E9F0', // Light gray for borders
-          gray: '#D8DEE9', // Gray for graph links and heavier borders
-          darkgray: '#4C566A', // Dark slate gray for body text
-          dark: '#2E3440', // Near-black for header text and icons
-          secondary: '#81A1C1', // Calm blue for link color and current graph nodes
-          tertiary: '#88C0D0', // Lighter, icy blue for hover states and visited graph nodes
-          highlight: '#8FBCBB' // Muted teal for internal link background and highlighted text
+          light: "#faf8f8",
+          lightgray: "#e5e5e5",
+          gray: "#b8b8b8",
+          darkgray: "#4e4e4e",
+          dark: "#2b2b2b",
+          secondary: "#284b63",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
           light: '#2e3440',       //Page background - done
-          lightgray: '#4c566a',   //Border color - done
-          gray: '#3b4252',        //Graph links and heavier borders
-          darkgray: '#d8dee9',    //Body text
-          dark: '#ebcb8b',        //Header text and icons
+          lightgray: '#434c5e',   //Border color - done
+          gray: '#4c566a',        //Graph links and heavier borders
+          darkgray: '#eceff4',    //Body text
+          dark: '#ebcb8b',        //Header text and icons - done
           secondary: '#d8dee9',   //link colour, current graph node
-          tertiary: '#3b4252',    //hover states and visited graph nodes - change
-          highlight: '#ebcb8b'    //internal link background, highlighted 
+          tertiary: '#e5e9f0',    //hover states and visited graph nodes - done
+          highlight: '#434c5e'    //internal link background, highlighted 
+        },
       },
-    }
+    },
   },
   plugins: {
     transformers: [
@@ -84,3 +87,5 @@ const config: QuartzConfig = {
     ],
   },
 }
+
+export default config
