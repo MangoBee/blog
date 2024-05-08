@@ -28,24 +28,24 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#eceff4",       //Page background
+          lightgray: "#4c566a",   //Border color
+          gray: "#434c5e",        //Graph links and heavier borders
+          darkgray: "#2e3440",    //Body text
+          dark: "#bf616a",        //Header text and icons
+          secondary: "#4c566a",   //link text and current graph node
+          tertiary: "#434c5e",    //hover states and visited graph nodes
+          highlight: "#8fbcbb",    //internal link background
         },
         darkMode: {
-          light: '#2e3440',       //Page background - done
-          lightgray: '#434c5e',   //Border color - done
+          light: '#2e3440',       //Page background
+          lightgray: '#434c5e',   //Border color
           gray: '#4c566a',        //Graph links and heavier borders
           darkgray: '#eceff4',    //Body text
-          dark: '#ebcb8b',        //Header text and icons - done
-          secondary: '#d8dee9',   //link colour, current graph node
-          tertiary: '#e5e9f0',    //hover states and visited graph nodes - done
-          highlight: '#434c5e'    //internal link background, highlighted 
+          dark: '#ebcb8b',        //Header text and icons
+          secondary: '#4c566a',   //link text and current graph node
+          tertiary: '#e5e9f0',    //hover states and visited graph nodes
+          highlight: '#8fbcbb'    //internal link background
         },
       },
     },

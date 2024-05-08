@@ -2,6 +2,7 @@
 
 // put your custom CSS here!
 
+// Headings, Bold, Italics, Highlighted Text and text selection in Nord Style
 [saved-theme="dark"] {
   article {
       h1 {
@@ -13,36 +14,36 @@
       }
 
       h3 {
-          color: #b48ead;
+          color: #88c0d0;
       }
 
       h4 {
-          color: #d08770;
+          color: #81a1c1;
       }
 
       h5 {
-          color: #bf616a;
+          color: #5e81ac;
       }
 
       h6 {
-          color: #bf616a;
+          color: #5e81ac;
       }
   }
 
   strong,
   code {
-      color: #88c0d0 !important;
-  }
-
-  span.text-highlight {
-       
-      background-color: #81a1c1 !important;
+      color: #b48ead!important;
   }
 
   em {
-      color: #88c0d0 !important;
-      ;
-   }
+    color: #b48ead !important;
+    ;
+ }
+
+  span.text-highlight {
+       
+      background-color: #b48ead !important;
+  }
 
    ::selection {
       background: #8fbcbb;
@@ -57,7 +58,7 @@ article {
       }
 
       h2 {
-          color: rgb(143, 94, 21);
+          color: #d0877;
       }
 
       h3 {
@@ -65,24 +66,24 @@ article {
       }
 
       h4 {
-          color: rgb(15, 75, 110);
+          color: #b48ead;
       }
 
       h5 {
-          color: rgb(52, 84, 138);
+          color: #5e81ac;
       }
 
       h6 {
-          color: rgb(90, 74, 120);
+          color: #5e81ac;
       }
   }
 
   strong{
-      color: #0F4B6E !important;
+      color: #ebcb8b !important;
   }
   
   em {
-      color:#0F4B6E !important;
+      color:#ebcb8b !important;
   }
 
   code {
@@ -91,8 +92,11 @@ article {
   }
 
   span.text-highlight {
-      color: #343B58 !important;
-      background: #BCA093 !important;
+      color: #2e3440 !important;
+      background: #ebcb8b !important;
   }
 
+  ::selection {
+    background: #8fbcbb;
+  }
 }
