@@ -1,5 +1,5 @@
 ---
-title: Welcome to MangoBee Website
+title: Homepage
 ---
 # Header
 ## Header
@@ -14,14 +14,10 @@ title: Welcome to MangoBee Website
 4. Bold: **Big Nouns**
 5. List: Dash 
 	 - Dash1
-	 - Dash2
-	 1. NumberDotSpace
-	 2. NumberDotSpace2
 6. Fontsize manipulate: <font size=2>sample Text </font>, [More Info](https://linuxhint.com/markdown-font-size/).
 7. `Code line`
 8. ==This is Hightlight==
-9. ~~Strikeout~~
-```
+```ts
 colors: {
 lightMode: {
   light: "#eceff4",       //Page background

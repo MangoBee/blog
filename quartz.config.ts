@@ -39,7 +39,7 @@ const config: QuartzConfig = {
         },
         darkMode: {
           light: '#2e3440',       //Page background
-          lightgray: '#4c566a',   //Border color
+          lightgray: '#434c5e',   //Border color
           gray: '#4c566a',        //Graph links and heavier borders
           darkgray: '#d8dee9',    //Body text
           dark: '#a3be8c',        //Header text and icons
