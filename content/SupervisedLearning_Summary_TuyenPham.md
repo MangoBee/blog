@@ -1,38 +1,6 @@
-## Table of Contents
-
-1. [VOCABULARY](#VOCABULARY%20%25%25%20fold%20%25%25)
-1. [Introduction in Supervised learning Project](#Introduction%20in%20Supervised%20learning%20Project%20%25%25%20fold%20%25%25)
-1. [PCA Project ](#PCA%20Project%20%20%25%25%20fold%20%25%25)
-1. [KNN Classification Project](#KNN%20Classification%20Project%20%25%25%20fold%20%25%25)
-	1. [Handling Machine Learning Discrete/Categorical Data](#Handling%20Machine%20Learning%20Discrete/Categorical%20Data%20%25%25%20fold%20%25%25)
-		1. [Numerize categorical/discrete Data for Machine Learning](#Numerize%20categorical/discrete%20Data%20for%20Machine%20Learning%20%25%25%20fold%20%25%25)
-	1. [Result](#Result%20%25%25%20fold%20%25%25)
-1. [Decision Trees ClassificationProject](#Decision%20Trees%20ClassificationProject%20%25%25%20fold%20%25%25)
-	1. [Q&A](#Q&A%20%25%25%20fold%20%25%25)
-	1. [Results](#Results%20%25%25%20fold%20%25%25)
-1. [Evaluation Metric Project](#Evaluation%20Metric%20Project%20%25%25%20fold%20%25%25)
-1. [KNN Regression Project](#KNN%20Regression%20Project%20%25%25%20fold%20%25%25)
-1. [Decision Trees Regression Project](#Decision%20Trees%20Regression%20Project%20%25%25%20fold%20%25%25)
-1. [Knowledge](#Knowledge%20%25%25%20fold%20%25%25)
-	1. [Cross Validation](#Cross%20Validation)
-	1. [Distance Measurement](#Distance%20Measurement)
-	1. [Supervised Learning](#Supervised%20Learning%20%25%25%20fold%20%25%25)
-		1. [Classification](#Classification%20%25%25%20fold%20%25%25)
-		1. [Regression](#Regression%20%25%25%20fold%20%25%25)
-	1. [K-Nearest neighbors](#K-Nearest%20neighbors%20%25%25%20fold%20%25%25)
-	1. [Decision Tree](#Decision%20Tree%20%25%25%20fold%20%25%25)
-		1. [How Does the Decision Tree Algorithm Work?](#How%20Does%20the%20Decision%20Tree%20Algorithm%20Work?%20%25%25%20fold%20%25%25)
-		1. [Attribute Selection Measures](#Attribute%20Selection%20Measures%20%25%25%20fold%20%25%25)
-	1. [Theorie der Dimensionalität](#Theorie%20der%20Dimensionalit%C3%A4t%20%25%25%20fold%20%25%25)
-	1. [Evaluation Metrics for Classification](#Evaluation%20Metrics%20for%20Classification%20%25%25%20fold%20%25%25)
-		1. [Q&A](#Q&A%20%25%25%20fold%20%25%25)
-		1. [Confusion Matrix (Wahrheitsmatrix)](#Confusion%20Matrix%20(Wahrheitsmatrix)%20%25%25%20fold%20%25%25)
-		1. [The Role of a Confusion Matrix](#The%20Role%20of%20a%20Confusion%20Matrix%20%25%25%20fold%20%25%25)
-		1. [F1 Score - Regulating Parameter for Extreme Case](#F1%20Score%20-%20Regulating%20Parameter%20for%20Extreme%20Case%20%25%25%20fold%20%25%25)
-		1. [ROC](#ROC%20%25%25%20fold%20%25%25)
-		1. [Generalisierung](#Generalisierung%20%25%25%20fold%20%25%25)
-	1. [Evaluation Metrics for Regression](#Evaluation%20Metrics%20for%20Regression%20%25%25%20fold%20%25%25)
-	1. [Algorithm Quantitative Comparision](#Algorithm%20Quantitative%20Comparision%20%25%25%20fold%20%25%25)
+---
+title: Supervised Learning
+---
 
 ## VOCABULARY
 - `Tuples`: A tuple typically consists of an input data point (or instance) and the associated output or label.
@@ -41,8 +9,6 @@
 - *n_neighbors* in k-NN from scikit-learn: are the number of neighbors that will vote for the class of the target point
 ## Introduction in Supervised learning Project
 - Full Guide - [Supervised Machine Learning | DataCamp](https://www.datacamp.com/blog/supervised-machine-learning)
-- Offline - [[SupervisedML_Introduction_Datacamp.pdf]]
-
 ## PCA Project 
 > [!question]- Why does `explained_variance_ratio_` doesnt required data input x?
 > The `explained_variance_ratio_` attribute in scikit-learn's PCA class doesn't explicitly need the input data `X` when accessed. The reason is that after you fit the PCA model using `pca_df.fit_transform(X)`, the model internally computes the explained variance ratios based on the data it was fitted to (i.e., `X`).
@@ -55,7 +21,6 @@
 > The `StandardScaler().fit_transform(x)` method in scikit-learn expects the input `x` to be a 2D array-like or sparse matrix. Specifically, `x` should be a 2D NumPy array, a pandas DataFrame, or a similar data structure.
 
 - Guide - [Principal Component Analysis (PCA) in Python Tutorial | DataCamp](https://www.datacamp.com/tutorial/principal-component-analysis-in-python)
-- Offline Guide - [[PCA_datacamp.pdf]]
 Explained variation per principal component
 
 | Principal component | value   |     |
@@ -68,7 +33,6 @@ Explained variation per principal component
 
 ## KNN Classification Project
 - Full Guide - [K-Nearest Neighbors (KNN) Classification with scikit-learn | DataCamp](https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn)
-- Offline Guide - [[KNN_datacamp.pdf]]
 
 > [!question]- User what is the different between `transform` and `fit_transform` from `standardScaler()`?
 > In scikit-learn's StandardScaler, both fit_transform and transform methods are used for feature scaling, but they are applied in different contexts:
@@ -146,7 +110,6 @@ Explained variation per principal component
 > The "support" values in the classification_report represent the number of instances (data points) for each class in the testing set, not the total number of instances in the entire dataset. The support values are calculated based on the testing set used for evaluation, and they provide insights into the distribution of instances across different classes in the testing set.
 ### Handling Machine Learning Discrete/Categorical Data
 - Full Guide - [Handling Machine Learning Categorical Data with Python Tutorial | DataCamp](https://www.datacamp.com/tutorial/categorical-data)
-- Offline - [[HandlingCategoricalData_ML_Datacamp.pdf]]
 #### Numerize categorical/discrete Data for Machine Learning
 - One-hot encoding: Maschine, Mode, Produkt
 - Label encoding: 
@@ -169,7 +132,6 @@ Explained variation per principal component
 Accuracy: 0.98
 ## Decision Trees ClassificationProject
 - Full Guide - [Python Decision Tree Classification Tutorial: Scikit-Learn DecisionTreeClassifier | DataCamp](https://www.datacamp.com/tutorial/decision-tree-classification-python)
-- Offline - [[DecisionTree_Datacamp.pdf]]
 ### Q&A
 > [!question]- Do Decision Trees Need Feature Scaling Or Normalization?
 > Decision trees, including those implemented in scikit-learn (a popular machine learning library in Python), do not inherently require data normalization. Decision trees are not sensitive to the scale of the input features because they make decisions based on threshold values for individual features.
@@ -279,10 +241,8 @@ Accuracy: 0.98
 
 ## Evaluation Metric Project
 - Coding Evaluate Metrics for Classification - [Metrics To Evaluate Machine Learning Algorithms in Python - MachineLearningMastery.com](https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/)
-- Offline - [[EvaluationMetrics_Classification_ProgrammingGuide.pdf]]
 - Strategy: Plot Confusion Matrix + Classification report from SKlearn
 - Coding Evaluation Metrics for Regression - [Regression Metrics for Machine Learning - MachineLearningMastery.com](https://machinelearningmastery.com/regression-metrics-for-machine-learning/)
-- Offline - [[EvaluationMetrics_Regression_ProgrammingGuide.pdf]]
 ## KNN Regression Project
 > [!question]- Does KNN classification process equivalent KNN regression?
 > While the overall process is similar, there are a few key differences:
@@ -481,7 +441,6 @@ The basic idea behind any decision tree algorithm is as follows:
 
 ### Evaluation Metrics for Classification
 - Full Guide - [12 Important Model Evaluation Metrics for Machine Learning](https://www.analyticsvidhya.com/blog/2019/08/11-important-model-evaluation-error-metrics/)
-- Offline - [[SupervisedClassificationMetrics.pdf]]
 #### Q&A
 > [!tip]- Q1. What are evaluation metrics in machine learning?
 > 
@@ -599,7 +558,6 @@ undefined
 - It evaluate if the model overfitted, generalised or underfitted
 ### Evaluation Metrics for Regression
 - Full Guide - [Know the best evaluation metrics for Regression](https://www.analyticsvidhya.com/blog/2021/05/know-the-best-evaluation-metrics-for-your-regression-model/)
-- Offline - [[SupervisedRegressionMetrics.pdf]]
 
 > [!question]- Which metric is best for Evaluation Regression Model?
 > 1. **Mean Absolute Error (MAE):**

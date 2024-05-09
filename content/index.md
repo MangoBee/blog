@@ -13,3 +13,4 @@ May i humble present for you my very first website. I'm MangoBee, currently stud
 | :------------------------------------------------------------ | :----------------------------------------------------------------------------------- | :------- |
 | [[How i build my first theme?]]                               | [[Why plain text so important in digital era?]]                                      | [[Test]] |
 | [[SupervisedLearning_Summary_TuyenPham\|Supervised Learning]] | [[Bullet point - How to keep your daily operation sharp like bullet, and on point?]] |          |
+| [[AI_UB03_TuyenPham_PUB\|Supervised Learning Exercise]]       |                                                                                      |          |

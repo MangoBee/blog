@@ -1,3 +1,6 @@
+---
+title: Supervised Learning Excercise
+---
 - Name: Tuyen Pham
 - Matnr.: s0590106
 # Supervised Learning - Classification & Regression
