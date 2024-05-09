@@ -124,10 +124,10 @@ Explained variation per principal component
 	- They are natural numerical data but present in discrete mode.
 ### Result
 - Cross Validation
-	- ![[07603c3ac364fc229dbaefe05b4fc50f.png]]
+	- ![[content/attachment/07603c3ac364fc229dbaefe05b4fc50f.png]]
 	- k = 25
 - Confusion Matrix
-	- ![[7a006514867fbcb28819a6a32c693b3a.png]]
+	- ![[content/attachment/7a006514867fbcb28819a6a32c693b3a.png]]
 
 |  | precision | recall | f1-score | support |
 | ---- | ---- | ---- | ---- | ---- |
@@ -223,7 +223,7 @@ Accuracy: 0.98
 > In summary, this code block exports a decision tree model (`clf`) to a PNG image file ('diabetes.png') by creating a Graphviz DOT representation of the tree and then converting it to an image using `pydotplus`. The resulting image is displayed using the `Image()` function.
 ### Results
 - Decision Tree Visualization unpruned- [[Pasted image 20231227001921.png]]
-![[c16173ff963e4790061b28d42fde97c8.png]]
+![[content/attachment/c16173ff963e4790061b28d42fde97c8.png]]
 
 |  | precision | recall | f1-score | support |
 | ---- | ---- | ---- | ---- | ---- |
@@ -236,7 +236,7 @@ Accuracy: 0.98
 
 - Here, the resultant tree is unpruned. This unpruned tree is unexplainable and not easy to understand. 
 - In the next section, let's optimize it by pruning. - [[Pasted image 20231227002556.png]]
-![[cb1b9b0e3d7c047b4759898bd91d3623.png]]
+![[content/attachment/cb1b9b0e3d7c047b4759898bd91d3623.png]]
 
 |  | precision | recall | f1-score | support |
 | ---- | ---- | ---- | ---- | ---- |
@@ -275,7 +275,7 @@ Accuracy: 0.98
 > 
 > Make sure to adjust the parameters and evaluation metrics based on the specific requirements of your task (classification or regression).
 
-![[07ee7a2244fab7cb0879e88d739b083d.png]]
+![[content/attachment/07ee7a2244fab7cb0879e88d739b083d.png]]
 k = 5
 - MAE: 1.2691
 - MSE: 2.8585
@@ -288,7 +288,7 @@ k = 5
 > - Evaluation metrics differ: accuracy and classification report for classification, and mean squared error (MSE) for regression.
 > - The training, prediction, and evaluation steps follow a similar structure.
 
-![[65cde909842744c455ab354fef0ac9ef.png]]
+![[content/attachment/65cde909842744c455ab354fef0ac9ef.png]]
 
 MAE: 1.2600
 Relative Mean Absolute Error (MAPE): 1.3492%
@@ -430,7 +430,7 @@ The basic idea behind any decision tree algorithm is as follows:
 > 
 > 4. **t-Distributed Stochastic Neighbor Embedding (t-SNE):**
 >    - t-SNE is a non-linear dimensionality reduction technique that can be used with both numerical and discrete features. It's often used for visualization.
-> ![[bfc0e7b544116dde8d43a50448a0c4dd.png]]
+> ![[content/attachment/bfc0e7b544116dde8d43a50448a0c4dd.png]]
 
 - Dimensionalität: spricht über Anzahl der Eigenschaften Datensatz nötig, um Klassifikationen von eine Eigenschaft abzubilden und zu beschreiben.
 - At the same time, each additional property increases the distances between individual data points from each other by increasing the dimensionality.
@@ -438,7 +438,7 @@ The basic idea behind any decision tree algorithm is as follows:
 	1. Es werden so lange Eigenschaften aus dem Trainingsdatensatz entfernt, bis sich keine Verbesserung mehr (oder eine Verschlechterung) des Ergebnisses einstellt. 
 	2. Mehrere Eigenschaften werden unter Ausnutzung ihrer Korrelation miteinander kombiniert, wodurch sich die Anzahl der erforderlichen Dimensionen reduziert.
 > [[p. 88)](zotero://open-pdf/library/items/M97SCPAP?page=88&annotation=LVRTGMN4|!cite]]
-> ![[9ff8a63be5caf9546a6fda78842b7350.png]]
+> ![[content/attachment/9ff8a63be5caf9546a6fda78842b7350.png]]
 > ****
 
 - Informationsverlust Rechnung durch Bestimmtheitsmaß R^2
@@ -530,8 +530,8 @@ A confusion matrix is an N X N matrix, where N is the number of predicted classe
 
 > [!abstract] Confusion Matrix Summary
 > 
-![[1f226060f124252ccf5417d7f521bb22.png]]
-![[e0ee39964568384c6532791d2f28ba8a.png]]
+![[content/attachment/1f226060f124252ccf5417d7f521bb22.png]]
+![[content/attachment/e0ee39964568384c6532791d2f28ba8a.png]]
 
 #### The Role of a Confusion Matrix
 - To better comprehend the confusion matrix, you must understand the aim and why it is widely used.
@@ -562,7 +562,7 @@ An **ROC curve** (**receiver operating characteristic curve**) is a graph showin
 An ROC curve plots TPR vs. FPR at different classification thresholds. Lowering the classification threshold classifies more items as positive, thus increasing both False Positives and True Positives. The following figure shows a typical ROC curve.
 undefined
 > [[p. 143)](zotero://open-pdf/library/items/M97SCPAP?page=143&annotation=UI839L9I|!cite]]
-> ![[c628e9bf01df052fe3674825cd9d052b.png]]
+> ![[content/attachment/c628e9bf01df052fe3674825cd9d052b.png]]
 > ****
 
 #### Generalisierung
@@ -594,5 +594,5 @@ undefined
 
 ### Algorithm Quantitative Comparision
 > [[p. 136)](zotero://open-pdf/library/items/M97SCPAP?page=136&annotation=2HPVJ8FZ|!cite]]
-> ![[c0c349a967c125a151fc84ade0de30e6.png]]
+> ![[content/attachment/c0c349a967c125a151fc84ade0de30e6.png]]
 > ****
