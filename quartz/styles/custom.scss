@@ -3,39 +3,89 @@
 // put your custom CSS here!
 
 // Headings, Bold, Italics, Highlighted Text and text selection in Nord Style
+[saved-theme="light"] {
+  article {
+        h1 {
+            color: #2e3440;
+    
+        }
+  
+        h2 {
+            color: #3b4252;
+        }
+  
+        h3 {
+            color: #434c5e;
+        }
+  
+        h4 {
+            color: #4c566a;
+        }
+  
+        h5 {
+            color: #4c566a;
+        }
+  
+        h6 {
+            color: #4c566a;
+        }
+    }
+  
+    strong{
+        color: #3b4252 !important;
+    }
+    
+    em {
+        color:#3b4252 !important;
+    }
+  
+    code {
+      color: #3b4252 !important;
+    }
+  
+    span.text-highlight {
+        color: #4c566a !important;
+        background: #ebcb8b !important;
+    }
+  
+    ::selection {
+      background: #8fbcbb;
+    }
+  }
+
 [saved-theme="dark"] {
   article {
       h1 {
-          color: #ebcb8b;
-      }
-
-      h2 {
           color: #a3be8c;
       }
 
+      h2 {
+          color: #eceff4;
+      }
+
       h3 {
-          color: #88c0d0;
+          color: #e5e9f0;
       }
 
       h4 {
-          color: #eceff4;
+          color: #d8dee9;
       }
 
       h5 {
-          color: #eceff4;
+          color: #d8dee9;
       }
 
       h6 {
-          color: #eceff4;
+          color: #d8dee9;
       }
   }
 
   strong {
-      color: #b48ead!important;
+      color: #eceff4 !important;
   }
 
   em {
-    color: #b48ead !important;
+    color: #eceff4 !important;
   }
 
   code {
@@ -43,61 +93,12 @@
   }
 
   span.text-highlight {
-       
-      background-color: #b48ead !important;
-  }
-
-   ::selection {
-      background: #8fbcbb;
-    }
+    color: #4c566a !important;
+    background: #ebcb8b !important;
 }
 
-[saved-theme="light"] {
-article {
-      h1 {
-          color: #bf616a;
-  
-      }
-
-      h2 {
-          color: #5e81ac;
-      }
-
-      h3 {
-          color: #b48ead;
-      }
-
-      h4 {
-          color: #2e3440;
-      }
-
-      h5 {
-          color: #2e3440;
-      }
-
-      h6 {
-          color: #2e3440;
-      }
-  }
-
-  strong{
-      color: #2e3440 !important;
-  }
-  
-  em {
-      color:#2e3440 !important;
-  }
-
-  code {
-    color: #2e3440 !important;
-  }
-
-  span.text-highlight {
-      color: #2e3440 !important;
-      background: #ebcb8b !important;
-  }
-
-  ::selection {
-    background: #88c0d0;
-  }
+   ::selection {
+      color: #434c5e;
+      background: #8fbcbb;
+    }
 }

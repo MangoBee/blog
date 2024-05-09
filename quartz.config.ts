@@ -31,21 +31,21 @@ const config: QuartzConfig = {
           light: "#eceff4",       //Page background
           lightgray: "#d8dee9",   //Border color
           gray: "#4c566a",        //Graph links and heavier borders
-          darkgray: "#2e3440",    //Body text
-          dark: "#bf616a",        //Header text and icons
+          darkgray: "#434c5e",    //Body text
+          dark: "#2e3440",        //Header text and icons
           secondary: "#4c566a",   //link text and current graph node
-          tertiary: "#434c5e",    //hover states and visited graph nodes
-          highlight: "#88c0d0",    //internal link background
+          tertiary: "2e3440",    //hover states and visited graph nodes
+          highlight: "#d8dee9",    //internal link background
         },
         darkMode: {
           light: '#2e3440',       //Page background
-          lightgray: '#434c5e',   //Border color
+          lightgray: '#4c566a',   //Border color
           gray: '#4c566a',        //Graph links and heavier borders
-          darkgray: '#eceff4',    //Body text
-          dark: '#ebcb8b',        //Header text and icons
-          secondary: '#4c566a',   //link text and current graph node
-          tertiary: '#e5e9f0',    //hover states and visited graph nodes
-          highlight: '#8fbcbb'    //internal link background
+          darkgray: '#d8dee9',    //Body text
+          dark: '#a3be8c',        //Header text and icons
+          secondary: '#a3be8c',   //link text and current graph node
+          tertiary: '#eceff4',    //hover states and visited graph nodes
+          highlight: '#3b4252'    //internal link background
         },
       },
     },
