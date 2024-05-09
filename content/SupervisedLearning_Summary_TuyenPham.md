@@ -2,6 +2,42 @@
 title: Supervised Learning
 ---
 
+## Table of Contents
+
+1. [VOCABULARY](#VOCABULARY)
+1. [Introduction in Supervised learning Project](#Introduction%20in%20Supervised%20learning%20Project)
+1. [PCA Project](#PCA%20Project)
+1. [KNN Classification Project](#KNN%20Classification%20Project)
+	1. [Handling Machine Learning Discrete/Categorical Data](#Handling%20Machine%20Learning%20Discrete/Categorical%20Data)
+		1. [Numerize categorical/discrete Data for Machine Learning](#Numerize%20categorical/discrete%20Data%20for%20Machine%20Learning)
+	1. [Result](#Result)
+1. [Decision Trees ClassificationProject](#Decision%20Trees%20ClassificationProject)
+	1. [Q&A](#Q&A)
+	1. [Results](#Results)
+1. [Evaluation Metric Project](#Evaluation%20Metric%20Project)
+1. [KNN Regression Project](#KNN%20Regression%20Project)
+1. [Decision Trees Regression Project](#Decision%20Trees%20Regression%20Project)
+1. [Knowledge](#Knowledge)
+	1. [Cross Validation](#Cross%20Validation)
+	1. [Distance Measurement](#Distance%20Measurement)
+	1. [Supervised Learning](#Supervised%20Learning)
+		1. [Classification](#Classification)
+		1. [Regression](#Regression)
+	1. [K-Nearest neighbors](#K-Nearest%20neighbors)
+	1. [Decision Tree](#Decision%20Tree)
+		1. [How Does the Decision Tree Algorithm Work?](#How%20Does%20the%20Decision%20Tree%20Algorithm%20Work?)
+		1. [Attribute Selection Measures](#Attribute%20Selection%20Measures)
+	1. [Theorie der Dimensionalität](#Theorie%20der%20Dimensionalit%C3%A4t)
+	1. [Evaluation Metrics for Classification](#Evaluation%20Metrics%20for%20Classification)
+		1. [Q&A](#Q&A)
+		1. [Confusion Matrix (Wahrheitsmatrix)](#Confusion%20Matrix%20(Wahrheitsmatrix))
+		1. [The Role of a Confusion Matrix](#The%20Role%20of%20a%20Confusion%20Matrix)
+		1. [F1 Score - Regulating Parameter for Extreme Case](#F1%20Score%20-%20Regulating%20Parameter%20for%20Extreme%20Case)
+		1. [ROC](#ROC)
+		1. [Generalisierung](#Generalisierung)
+	1. [Evaluation Metrics for Regression](#Evaluation%20Metrics%20for%20Regression)
+	1. [Algorithm Quantitative Comparision](#Algorithm%20Quantitative%20Comparision)
+
 ## VOCABULARY
 - `Tuples`: A tuple typically consists of an input data point (or instance) and the associated output or label.
 	- For example, in a dataset of images with corresponding labels indicating whether each image depicts a cat or a dog, each tuple would consist of an image and its corresponding class label (e.g., "cat" or "dog").
