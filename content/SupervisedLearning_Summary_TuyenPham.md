@@ -1,8 +1,38 @@
----
-title: Supervised Learning
-draft: false
-tags:
----
+## Table of Contents
+
+1. [VOCABULARY](#VOCABULARY%20%25%25%20fold%20%25%25)
+1. [Introduction in Supervised learning Project](#Introduction%20in%20Supervised%20learning%20Project%20%25%25%20fold%20%25%25)
+1. [PCA Project ](#PCA%20Project%20%20%25%25%20fold%20%25%25)
+1. [KNN Classification Project](#KNN%20Classification%20Project%20%25%25%20fold%20%25%25)
+	1. [Handling Machine Learning Discrete/Categorical Data](#Handling%20Machine%20Learning%20Discrete/Categorical%20Data%20%25%25%20fold%20%25%25)
+		1. [Numerize categorical/discrete Data for Machine Learning](#Numerize%20categorical/discrete%20Data%20for%20Machine%20Learning%20%25%25%20fold%20%25%25)
+	1. [Result](#Result%20%25%25%20fold%20%25%25)
+1. [Decision Trees ClassificationProject](#Decision%20Trees%20ClassificationProject%20%25%25%20fold%20%25%25)
+	1. [Q&A](#Q&A%20%25%25%20fold%20%25%25)
+	1. [Results](#Results%20%25%25%20fold%20%25%25)
+1. [Evaluation Metric Project](#Evaluation%20Metric%20Project%20%25%25%20fold%20%25%25)
+1. [KNN Regression Project](#KNN%20Regression%20Project%20%25%25%20fold%20%25%25)
+1. [Decision Trees Regression Project](#Decision%20Trees%20Regression%20Project%20%25%25%20fold%20%25%25)
+1. [Knowledge](#Knowledge%20%25%25%20fold%20%25%25)
+	1. [Cross Validation](#Cross%20Validation)
+	1. [Distance Measurement](#Distance%20Measurement)
+	1. [Supervised Learning](#Supervised%20Learning%20%25%25%20fold%20%25%25)
+		1. [Classification](#Classification%20%25%25%20fold%20%25%25)
+		1. [Regression](#Regression%20%25%25%20fold%20%25%25)
+	1. [K-Nearest neighbors](#K-Nearest%20neighbors%20%25%25%20fold%20%25%25)
+	1. [Decision Tree](#Decision%20Tree%20%25%25%20fold%20%25%25)
+		1. [How Does the Decision Tree Algorithm Work?](#How%20Does%20the%20Decision%20Tree%20Algorithm%20Work?%20%25%25%20fold%20%25%25)
+		1. [Attribute Selection Measures](#Attribute%20Selection%20Measures%20%25%25%20fold%20%25%25)
+	1. [Theorie der Dimensionalität](#Theorie%20der%20Dimensionalit%C3%A4t%20%25%25%20fold%20%25%25)
+	1. [Evaluation Metrics for Classification](#Evaluation%20Metrics%20for%20Classification%20%25%25%20fold%20%25%25)
+		1. [Q&A](#Q&A%20%25%25%20fold%20%25%25)
+		1. [Confusion Matrix (Wahrheitsmatrix)](#Confusion%20Matrix%20(Wahrheitsmatrix)%20%25%25%20fold%20%25%25)
+		1. [The Role of a Confusion Matrix](#The%20Role%20of%20a%20Confusion%20Matrix%20%25%25%20fold%20%25%25)
+		1. [F1 Score - Regulating Parameter for Extreme Case](#F1%20Score%20-%20Regulating%20Parameter%20for%20Extreme%20Case%20%25%25%20fold%20%25%25)
+		1. [ROC](#ROC%20%25%25%20fold%20%25%25)
+		1. [Generalisierung](#Generalisierung%20%25%25%20fold%20%25%25)
+	1. [Evaluation Metrics for Regression](#Evaluation%20Metrics%20for%20Regression%20%25%25%20fold%20%25%25)
+	1. [Algorithm Quantitative Comparision](#Algorithm%20Quantitative%20Comparision%20%25%25%20fold%20%25%25)
 
 ## VOCABULARY
 - `Tuples`: A tuple typically consists of an input data point (or instance) and the associated output or label.
@@ -24,7 +54,7 @@ tags:
 > 
 > The `StandardScaler().fit_transform(x)` method in scikit-learn expects the input `x` to be a 2D array-like or sparse matrix. Specifically, `x` should be a 2D NumPy array, a pandas DataFrame, or a similar data structure.
 
-- Guide - [[PCA) in Python Tutorial | DataCamp](https://www.datacamp.com/tutorial/principal-component-analysis-in-python|Principal Component Analysis (PCA) in Python Tutorial | DataCamp]]
+- Guide - [Principal Component Analysis (PCA) in Python Tutorial | DataCamp](https://www.datacamp.com/tutorial/principal-component-analysis-in-python)
 - Offline Guide - [[PCA_datacamp.pdf]]
 Explained variation per principal component
 
@@ -37,7 +67,7 @@ Explained variation per principal component
 | 5                   | 0.00025 |     |
 
 ## KNN Classification Project
-- Full Guide - [[KNN) Classification with scikit-learn | DataCamp](https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn|K-Nearest Neighbors (KNN) Classification with scikit-learn | DataCamp]]
+- Full Guide - [K-Nearest Neighbors (KNN) Classification with scikit-learn | DataCamp](https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn)
 - Offline Guide - [[KNN_datacamp.pdf]]
 
 > [!question]- User what is the different between `transform` and `fit_transform` from `standardScaler()`?
@@ -124,10 +154,10 @@ Explained variation per principal component
 	- They are natural numerical data but present in discrete mode.
 ### Result
 - Cross Validation
-	- ![[content/attachment/07603c3ac364fc229dbaefe05b4fc50f.png]]
+	- ![](attachment/07603c3ac364fc229dbaefe05b4fc50f.png)
 	- k = 25
 - Confusion Matrix
-	- ![[content/attachment/7a006514867fbcb28819a6a32c693b3a.png]]
+	- ![](attachment/7a006514867fbcb28819a6a32c693b3a.png)
 
 |  | precision | recall | f1-score | support |
 | ---- | ---- | ---- | ---- | ---- |
@@ -223,7 +253,7 @@ Accuracy: 0.98
 > In summary, this code block exports a decision tree model (`clf`) to a PNG image file ('diabetes.png') by creating a Graphviz DOT representation of the tree and then converting it to an image using `pydotplus`. The resulting image is displayed using the `Image()` function.
 ### Results
 - Decision Tree Visualization unpruned- [[Pasted image 20231227001921.png]]
-![[content/attachment/c16173ff963e4790061b28d42fde97c8.png]]
+![](attachment/c16173ff963e4790061b28d42fde97c8.png)
 
 |  | precision | recall | f1-score | support |
 | ---- | ---- | ---- | ---- | ---- |
@@ -236,7 +266,7 @@ Accuracy: 0.98
 
 - Here, the resultant tree is unpruned. This unpruned tree is unexplainable and not easy to understand. 
 - In the next section, let's optimize it by pruning. - [[Pasted image 20231227002556.png]]
-![[content/attachment/cb1b9b0e3d7c047b4759898bd91d3623.png]]
+![](attachment/cb1b9b0e3d7c047b4759898bd91d3623.png)
 
 |  | precision | recall | f1-score | support |
 | ---- | ---- | ---- | ---- | ---- |
@@ -275,7 +305,7 @@ Accuracy: 0.98
 > 
 > Make sure to adjust the parameters and evaluation metrics based on the specific requirements of your task (classification or regression).
 
-![[content/attachment/07ee7a2244fab7cb0879e88d739b083d.png]]
+![](attachment/07ee7a2244fab7cb0879e88d739b083d.png)
 k = 5
 - MAE: 1.2691
 - MSE: 2.8585
@@ -288,7 +318,7 @@ k = 5
 > - Evaluation metrics differ: accuracy and classification report for classification, and mean squared error (MSE) for regression.
 > - The training, prediction, and evaluation steps follow a similar structure.
 
-![[content/attachment/65cde909842744c455ab354fef0ac9ef.png]]
+![](attachment/65cde909842744c455ab354fef0ac9ef.png)
 
 MAE: 1.2600
 Relative Mean Absolute Error (MAPE): 1.3492%
@@ -430,15 +460,15 @@ The basic idea behind any decision tree algorithm is as follows:
 > 
 > 4. **t-Distributed Stochastic Neighbor Embedding (t-SNE):**
 >    - t-SNE is a non-linear dimensionality reduction technique that can be used with both numerical and discrete features. It's often used for visualization.
-> ![[content/attachment/bfc0e7b544116dde8d43a50448a0c4dd.png]]
+> ![](attachment/bfc0e7b544116dde8d43a50448a0c4dd.png)
 
 - Dimensionalität: spricht über Anzahl der Eigenschaften Datensatz nötig, um Klassifikationen von eine Eigenschaft abzubilden und zu beschreiben.
 - At the same time, each additional property increases the distances between individual data points from each other by increasing the dimensionality.
 - Ansatz zur Reduzierung der Dimensionalität
 	1. Es werden so lange Eigenschaften aus dem Trainingsdatensatz entfernt, bis sich keine Verbesserung mehr (oder eine Verschlechterung) des Ergebnisses einstellt. 
 	2. Mehrere Eigenschaften werden unter Ausnutzung ihrer Korrelation miteinander kombiniert, wodurch sich die Anzahl der erforderlichen Dimensionen reduziert.
-> [[p. 88)](zotero://open-pdf/library/items/M97SCPAP?page=88&annotation=LVRTGMN4|!cite]]
-> ![[content/attachment/9ff8a63be5caf9546a6fda78842b7350.png]]
+> [!cite]+ Image [(p. 88)](zotero://open-pdf/library/items/M97SCPAP?page=88&annotation=LVRTGMN4)
+> ![](attachment/9ff8a63be5caf9546a6fda78842b7350.png)
 > ****
 
 - Informationsverlust Rechnung durch Bestimmtheitsmaß R^2
@@ -530,8 +560,8 @@ A confusion matrix is an N X N matrix, where N is the number of predicted classe
 
 > [!abstract] Confusion Matrix Summary
 > 
-![[content/attachment/1f226060f124252ccf5417d7f521bb22.png]]
-![[content/attachment/e0ee39964568384c6532791d2f28ba8a.png]]
+![](attachment/1f226060f124252ccf5417d7f521bb22.png)
+![](attachment/e0ee39964568384c6532791d2f28ba8a.png)
 
 #### The Role of a Confusion Matrix
 - To better comprehend the confusion matrix, you must understand the aim and why it is widely used.
@@ -561,8 +591,8 @@ An **ROC curve** (**receiver operating characteristic curve**) is a graph showin
 - False Positive Rate (FPR)
 An ROC curve plots TPR vs. FPR at different classification thresholds. Lowering the classification threshold classifies more items as positive, thus increasing both False Positives and True Positives. The following figure shows a typical ROC curve.
 undefined
-> [[p. 143)](zotero://open-pdf/library/items/M97SCPAP?page=143&annotation=UI839L9I|!cite]]
-> ![[content/attachment/c628e9bf01df052fe3674825cd9d052b.png]]
+> [!cite]+ Image [(p. 143)](zotero://open-pdf/library/items/M97SCPAP?page=143&annotation=UI839L9I)
+> ![](attachment/c628e9bf01df052fe3674825cd9d052b.png)
 > ****
 
 #### Generalisierung
@@ -593,6 +623,6 @@ undefined
 >    - **Interpretation:** MAPE is similar to MPE but uses absolute values, making it suitable for avoiding the issue of canceling out positive and negative errors.
 
 ### Algorithm Quantitative Comparision
-> [[p. 136)](zotero://open-pdf/library/items/M97SCPAP?page=136&annotation=2HPVJ8FZ|!cite]]
-> ![[content/attachment/c0c349a967c125a151fc84ade0de30e6.png]]
+> [!cite]+ Image [(p. 136)](zotero://open-pdf/library/items/M97SCPAP?page=136&annotation=2HPVJ8FZ)
+> ![](attachment/c0c349a967c125a151fc84ade0de30e6.png)
 > ****
