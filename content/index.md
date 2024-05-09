@@ -16,8 +16,8 @@ title: Homepage
 	 - Dash1
 6. Fontsize manipulate: <font size=2>sample Text </font>, [More Info](https://linuxhint.com/markdown-font-size/).
 7. `Code line`
-8. ==This is Hightlight==
-```ts
+8. ==This is Higphtlight==
+```type scr
 colors: {
 lightMode: {
   light: "#eceff4",       //Page background
