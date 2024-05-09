@@ -1,3 +1,4 @@
+
 - Okular is a powerful pdf editor with advanced searching tools
 	- Able to search two term that existing in one pages (similar to Filtering by Tags)
 - Best suit for direct PDF Editing (Annotation should be flatten out in order to be seen on other software)
