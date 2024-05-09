@@ -2,6 +2,10 @@
 
 // put your custom CSS here!
 
+
+//Image Caption
+img + em {display: block; text-align: center;} 
+
 // Headings, Bold, Italics, Highlighted Text and text selection in Nord Style
 [saved-theme="light"] {
   article {
@@ -29,29 +33,29 @@
         h6 {
             color: #4c566a;
         }
-    }
-  
-    strong{
-        color: #3b4252 !important;
-    }
-    
-    em {
-        color:#3b4252 !important;
-    }
-  
-    code {
-      color: #3b4252 !important;
-    }
-  
-    span.text-highlight {
-        color: #4c566a !important;
-        background: #ebcb8b !important;
-    }
-  
-    ::selection {
-      background: #8fbcbb;
-    }
   }
+  
+  strong{
+      color: #3b4252 !important;
+  }
+    
+  em {
+      color:#3b4252 !important;
+  }
+  
+  code {
+    color: #3b4252 !important;
+  }
+
+  span.text-highlight {
+      color: #4c566a !important;
+      background: #ebcb8b !important;
+  }
+
+  ::selection {
+    background: #8fbcbb;
+  }
+}
 
 [saved-theme="dark"] {
   article {
@@ -95,10 +99,10 @@
   span.text-highlight {
     color: #4c566a !important;
     background: #ebcb8b !important;
-}
+  }
 
-   ::selection {
+  ::selection {
       color: #434c5e;
       background: #8fbcbb;
-    }
+  }
 }

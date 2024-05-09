@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🖋 MangoBee",
+    pageTitle: "🖋MangoBee",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -34,8 +34,8 @@ const config: QuartzConfig = {
           darkgray: "#434c5e",    //Body text
           dark: "#2e3440",        //Header text and icons
           secondary: "#4c566a",   //link text and current graph node
-          tertiary: "2e3440",    //hover states and visited graph nodes
-          highlight: "#d8dee9",    //internal link background
+          tertiary: "2e3440",     //hover states and visited graph nodes
+          highlight: "#d8dee9",   //internal link background
         },
         darkMode: {
           light: '#2e3440',       //Page background
