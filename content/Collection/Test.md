@@ -50,10 +50,11 @@ $$
 > [!quote] What do we live for, if it is not to make life less difficult for each other?
 > — George Eliot
 #### Activities
+![](content/attachment/07603c3ac364fc229dbaefe05b4fc50f.png)
 
-![07603c3ac364fc229dbaefe05b4fc50f](content/attachment/07603c3ac364fc229dbaefe05b4fc50f.png)
 
-*This is image caption*
+## Test
+![[content/attachment/07603c3ac364fc229dbaefe05b4fc50f.png]]
 
 #### Changelog
 
