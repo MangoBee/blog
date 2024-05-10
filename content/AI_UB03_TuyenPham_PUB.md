@@ -1,5 +1,7 @@
-- Name: Tuyen Pham
-- Matnr.: s0590106
+---
+title: Supervised Learning Exercise
+---
+
 # Supervised Learning - Classification & Regression
 ## Setup Dataset for Classification and Regression Model
 - After correct the identified errors in *Laborpraktikum_02*, data set is ready for modelling process, which is executed in *Python* with the help of following packets: 
@@ -61,7 +63,8 @@
 	- Normalize dataframe.
 	- Program cumulative PCA with Sklearn and Numpy packets.
 	- Visualize Cumulative Principle components.
-**Results**
+
+**Results:**
 ![](ae22cc653adbe313b069008f43580e4a.png)
 *Fig.01 Cummulative Explained Variance vs. Number of Pricipal Components*
 
@@ -144,7 +147,6 @@
 > report = classification_report(y_test, y_pred)
 > print(report)
 > ```
-
 
 **Result:**
 For k = 13
