@@ -2,6 +2,18 @@
 
 // put your custom CSS here!
 
+//Image Caption
+img {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+
+img + em {     
+	text-align: center;
+	display: block;
+    margin-top: 2em;
+}
 
 
 // Headings, Bold, Italics, Highlighted Text and text selection in Nord Style
