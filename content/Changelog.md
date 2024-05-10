@@ -8,7 +8,8 @@ draft: true
 - Periodic Note
 - Calendar
 - Ignore Setting: Archive
+- Update Theme suit for export pdf - Style Setting for Shimmering Focus
 - …
-- 
+
 ### Misc
 - remove sortspec

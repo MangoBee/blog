@@ -64,7 +64,7 @@ title: Supervised Learning Exercise
 	- Visualize Cumulative Principle components.
 
 **Results:**
-![](ae22cc653adbe313b069008f43580e4a.png)
+![Fig.01 Cummulative Explained Variance vs. Number of Pricipal Components](ae22cc653adbe313b069008f43580e4a.png)
 *Fig.01 Cummulative Explained Variance vs. Number of Pricipal Components*
 
 - Accoding to this, at least four features can be ignored without information lost.
