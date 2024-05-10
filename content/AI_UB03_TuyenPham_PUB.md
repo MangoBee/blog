@@ -64,7 +64,8 @@ title: Supervised Learning Exercise
 	- Visualize Cumulative Principle components.
 
 **Results:**
-![Fig.01 Cummulative Explained Variance vs. Number of Pricipal Components](ae22cc653adbe313b069008f43580e4a.png)
+
+![](ae22cc653adbe313b069008f43580e4a.png)
 *Fig.01 Cummulative Explained Variance vs. Number of Pricipal Components*
 
 - Accoding to this, at least four features can be ignored without information lost.
@@ -83,6 +84,7 @@ title: Supervised Learning Exercise
 
 #### Cross Validation
 - In the code, we use the KNN model on our data with fivefold cross-validation. This means the data is split into five parts, and the model is trained on four of them while testing on the remaining one. The process is repeated for each group, and the average accuracy score helps us identify the best-performing model. After that we plot this in 2D Graph to get a better overview.
+
 ![](90529f9a6fd1ee5cee37658eade17b4e.png)
 *Fig.02 Cross Validation*
 
@@ -149,6 +151,7 @@ title: Supervised Learning Exercise
 
 **Result:**
 For k = 13
+
 ![](6fa692ca7297fd64a2c2034eb85552ff.png)
 *Fig.03 Confusion Matrix*
 
@@ -209,6 +212,7 @@ For k = 13
 > ```
 
 **Results without pre-pruning:**
+
 ![](fb82319975a3f4d97219dadf48a8f35a.png)
 *Fig.04 Decision Tree without Pre-pruning*
 
@@ -225,6 +229,7 @@ For k = 13
 Accuracy: 0.98
 
 **Results with pre-pruning:**
+
 ![](f7ac85eb7a64d83925b73dde35ee474d.png)
 *Fig.06 Decision Tree with Pre-pruning*
 
@@ -243,7 +248,7 @@ Accuracy: 0.98
 ### Intepretation
 - The performance of pruned and unpruned machine learning process arent much different, however, the decision tree is much easier to explain. 
 - In term of classification, both KNN and Decision Tree perform pretty well and quite the same. So the chosen process is come down to the characteristic of each algorithm itself.
-![](067eb4c95509af0b5ef65d9ac856b27b.png)
+![](7f6b2f2254d54f4d40b1cd1f37e0e008.png)
 *Fig.08 Qualitative assessment of the algorithms with regard to classification and training time as well as generalization. (@matzkaKunstlicheIntelligenzIngenieurwissenschaften2021)*
 
 - Base on this evaluation in lecture script. Given that classification time and training time doesnt matter in this project since the code run in a single of click without any delays. KNN is chosen because of better generalisation.
@@ -272,6 +277,7 @@ Accuracy: 0.98
 
 ### KNN Regression
 - Target value is now *Temp Werkzeug* and the rest is convert to features in dataframe format.
+
 ![](e820aa88d040d595b7ec84373e86b9cf.png)
 *Fig.09 KNN Regression: Mean Squared Error vs. k-number*
 
@@ -376,6 +382,7 @@ For k = 5
 > ```
 
 **Result:**
+
 ![](ae0ab6253f73f564db801502cb657b12.png)
 *Fig.10 Pruned Decision Tree Regression*
 
