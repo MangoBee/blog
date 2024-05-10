@@ -20,7 +20,7 @@ export interface FullPageLayout {
 
 These correspond to following parts of the page:
 
-![[quartz layout.png|800]]
+![800](quartz%20layout.png)
 
 > [!note]
 > There are two additional layout fields that are _not_ shown in the above diagram.
@@ -30,11 +30,11 @@ These correspond to following parts of the page:
 
 Quartz **components**, like plugins, can take in additional properties as configuration options. If you're familiar with React terminology, you can think of them as Higher-order Components.
 
-See [a list of all the components](component.md) for all available components along with their configuration options. You can also checkout the guide on [[creating components]] if you're interested in further customizing the behaviour of Quartz.
+See [a list of all the components](component.md) for all available components along with their configuration options. You can also checkout the guide on [creating components](creating%20components.md) if you're interested in further customizing the behaviour of Quartz.
 
 ### Style
 
-Most meaningful style changes like colour scheme and font can be done simply through the [[configuration#General Configuration|general configuration]] options. However, if you'd like to make more involved style changes, you can do this by writing your own styles. Quartz 4, like Quartz 3, uses [Sass](https://sass-lang.com/guide/) for styling.
+Most meaningful style changes like colour scheme and font can be done simply through the [](configuration.md#General%20Configuration|general%20configuration) options. However, if you'd like to make more involved style changes, you can do this by writing your own styles. Quartz 4, like Quartz 3, uses [Sass](https://sass-lang.com/guide/) for styling.
 
 You can see the base style sheet in `quartz/styles/base.scss` and write your own in `quartz/styles/custom.scss`.
 

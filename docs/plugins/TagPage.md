@@ -4,10 +4,10 @@ tags:
   - plugin/emitter
 ---
 
-This plugin emits dedicated pages for each tag used in the content. See [[folder and tag listings]] for more information.
+This plugin emits dedicated pages for each tag used in the content. See [folder and tag listings](folder%20and%20tag%20listings.md) for more information.
 
 > [!note]
-> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
+> For information on how to add, remove or configure plugins, see the [](configuration.md#Plugins|Configuration) page.
 
 This plugin has no configuration options.
 

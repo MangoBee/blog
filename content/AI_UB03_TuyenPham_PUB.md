@@ -34,7 +34,7 @@ title: Supervised Learning Excercise
 > df[columns_to_convert] = df[columns_to_convert].astype(str)
 > 
 > # One-hot encoding categorical data
-> X_encoded = OneHotEncoder().fit_transform(df[["Maschine", "Produkt"]])
+> X_encoded = OneHotEncoder().fit_transform(df["Maschine", "Produkt"]("Maschine",%20"Produkt"))
 > # Convert to dataframe & Rename
 > X_encoded = pd.DataFrame(X_encoded.toarray())
 > X_encoded = X_encoded.rename(columns={0: 'Maschine A', 1: 'Maschine B', 2: 'Maschine C', 3: 'Maschine D', 4: 'Produkt X', 5: 'Produkt Y'})

@@ -2,7 +2,7 @@
 - Okular is a powerful pdf editor with advanced searching tools
 	- Able to search two term that existing in one pages (similar to Filtering by Tags)
 - Best suit for direct PDF Editing (Annotation should be flatten out in order to be seen on other software)
-- It doesnt fit to edit large PDF file like Book where change and update are frequent -> [[ZoteroIntegration_PL]]
+- It doesnt fit to edit large PDF file like Book where change and update are frequent -> [ZoteroIntegration_PL](ZoteroIntegration_PL)
 ## Shortcuts
 
 |                                  |                        |                                      |
@@ -22,7 +22,7 @@
 - Should be flatten afterward
 ## Setup
 - Setup as Default System PDF Viewer
-	- Acces to Root (see [[Nemo_DES#Set Thunar as default File Manager]])
+	- Acces to Root (see [](Nemo_DES#Set%20Thunar%20as%20default%20File%20Manager))
 	- Change *application/pdf=okularApplication_pdf.desktop*
 - Activate Show More Annotation Tools
 - Delete Option in Button next to Text Selection
@@ -33,7 +33,7 @@
 - Set hot key for Inverted Color:
 	- Setting > Configure Toolbar > Configure Keyboard Shortcuts > Change colors > set "Ctrl+I"
 ## Darktheme 
-- [[https://askubuntu.com/questions/24780/how-to-make-kde-applications-look-native-in-gnome/1044419#1044419]] app like Okular
+- [](https://askubuntu.com/questions/24780/how-to-make-kde-applications-look-native-in-gnome/1044419#1044419) app like Okular
 	- sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
 	- echo "export QT_STYLE_OVERRIDE=kvantum" >> $HOME/.profile
 	- Restart PC

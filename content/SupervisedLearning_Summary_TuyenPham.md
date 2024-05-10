@@ -56,15 +56,15 @@ Explained variation per principal component
 >    from sklearn.preprocessing import OneHotEncoder
 > 
 >    # Assuming df is your DataFrame with categorical features
->    X = df[['Category1', 'Category2', 'NumericFeature1', 'NumericFeature2']]
+>    X = df['Category1', 'Category2', 'NumericFeature1', 'NumericFeature2']('Category1',%20'Category2',%20'NumericFeature1',%20'NumericFeature2')
 >    y = df['Target']
 > 
 >    # Perform one-hot encoding for categorical features
 >    encoder = OneHotEncoder()
->    X_encoded = encoder.fit_transform(X[['Category1', 'Category2']])
+>    X_encoded = encoder.fit_transform(X['Category1', 'Category2']('Category1',%20'Category2'))
 > 
 >    # Combine encoded categorical features with numeric features
->    X_combined = pd.concat([pd.DataFrame(X_encoded.toarray()), X[['NumericFeature1', 'NumericFeature2']]], axis=1)
+>    X_combined = pd.concat([pd.DataFrame(X_encoded.toarray()), X['NumericFeature1', 'NumericFeature2']('NumericFeature1',%20'NumericFeature2')], axis=1)
 > 
 >    # Split data into training and testing sets
 >    X_train, X_test, y_train, y_test = train_test_split(X_combined, y, test_size=0.2, random_state=42)
@@ -214,7 +214,7 @@ Accuracy: 0.98
 > 
 > In summary, this code block exports a decision tree model (`clf`) to a PNG image file ('diabetes.png') by creating a Graphviz DOT representation of the tree and then converting it to an image using `pydotplus`. The resulting image is displayed using the `Image()` function.
 ### Results
-- Decision Tree Visualization unpruned- [[Pasted image 20231227001921.png]]
+- Decision Tree Visualization unpruned- [Pasted image 20231227001921.png](Pasted%20image%2020231227001921.png)
 ![](attachment/c16173ff963e4790061b28d42fde97c8.png)
 
 |  | precision | recall | f1-score | support |
@@ -227,7 +227,7 @@ Accuracy: 0.98
 Accuracy: 0.98
 
 - Here, the resultant tree is unpruned. This unpruned tree is unexplainable and not easy to understand. 
-- In the next section, let's optimize it by pruning. - [[Pasted image 20231227002556.png]]
+- In the next section, let's optimize it by pruning. - [Pasted image 20231227002556.png](Pasted%20image%2020231227002556.png)
 ![](attachment/cb1b9b0e3d7c047b4759898bd91d3623.png)
 
 |  | precision | recall | f1-score | support |
