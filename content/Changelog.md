@@ -1,3 +1,6 @@
+---
+draft:
+---
 - [ ] Update
 ---
 ## .obsidian
