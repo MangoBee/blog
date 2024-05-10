@@ -5,7 +5,7 @@
 ##### Header
 ###### Header
 ## Basic Syntax
-1. Link: [[Obsidian]]
+1. Link: [Obsidian](Obsidian)
 2. Tag: #ObsidianTagSyntax 
 3. Italic: *asterisks*
 4. Bold: **Big Nouns**
@@ -50,37 +50,38 @@ $$
 > [!quote] What do we live for, if it is not to make life less difficult for each other?
 > — George Eliot
 #### Activities
-![[content/attachment/07603c3ac364fc229dbaefe05b4fc50f.png]]
+![07603c3ac364fc229dbaefe05b4fc50f](content/attachment/07603c3ac364fc229dbaefe05b4fc50f.png)
 *This is image caption*
+
 #### Changelog
 
 | New                                                                                                                                                                                                                                                                                    | Update | Drop                   |     |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----- | :--------------------- | --- |
-| <div>- [[Iconize_PL]]</div><div>- [[Templater_PL]]</div><div>- [[VSCode]]</div><div>- [[OpenVaultVSCode_PL.md]]</div><div>- [[RenameKanban_TP]]</div><div>- [[Edge_DES]]</div><div>- [[Pinta_DES]]</div> |        | - [[Tasks_PL]] |     |
+| <div>- [Iconize_PL](Iconize_PL)</div><div>- [Templater_PL](Templater_PL)</div><div>- [VSCode](VSCode)</div><div>- [OpenVaultVSCode_PL](OpenVaultVSCode_PL.md.md)</div><div>- [RenameKanban_TP](RenameKanban_TP)</div><div>- [Edge_DES](Edge_DES)</div><div>- [Pinta_DES](Pinta_DES)</div> |        | - [Tasks_PL](Tasks_PL) |     |
 
 
 #### Events
 -  BHT Bewerbungsbeginn [allDay:: true]  [endDate:: 2023-11-03]
 #### Workspace
 - Cant restore var and miniconda!!
-- [[IMG_6257.png]]
-- [[IMG_6258.png]]
-- [[IMG_6259.png]]
-- [[IMG_6260.png]]
-- [[IMG_6261.png]]
-- [[IMG_6262.png]]
+- [IMG_6257.png](IMG_6257.png)
+- [IMG_6258.png](IMG_6258.png)
+- [IMG_6259.png](IMG_6259.png)
+- [IMG_6260.png](IMG_6260.png)
+- [IMG_6261.png](IMG_6261.png)
+- [IMG_6262.png](IMG_6262.png)
 #### Achievements
-- [[Templater_PL|x]] ✅ 2023-11-03
+- [x](Templater_PL) ✅ 2023-11-03
 
 #### Challenges
-- [[JobMarket|-]] ⏫
+- [-](JobMarket) ⏫
 - [f] Pip install causing imcompatible in Ubuntu
 - [?] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
 
 #### Future
 - [ ] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
 - [/] Callouts is cool, what you can learn more about it?
-- [[JobMarket|<]] ⏫
+- [<](JobMarket) ⏫
 - [>] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
 - [I] Job Application
 
@@ -90,7 +91,7 @@ $$
 - [i] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
 
 #### INFORMATION
-- [[Templater_PL|*]]
+- [*](Templater_PL)
 - [!] Create a Update file for Potential Improvement to avoid chaotic and random update
 - [p] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
 - [c] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
@@ -104,46 +105,46 @@ $$
 - [w] Optimize initial time in Obsidian Mobile
 ## Table of Contents
 
-1. [[#VOCABULARY|VOCABULARY]]
-1. [[#Introduction in Supervised learning Project|Introduction in Supervised learning Project]]
-1. [[#PCA Project|PCA Project]]
-1. [[#KNN Classification Project|KNN Classification Project]]
-	1. [[#Handling Machine Learning Discrete/Categorical Data|Handling Machine Learning Discrete/Categorical Data]]
-		1. [[#Numerize categorical/discrete Data for Machine Learning|Numerize categorical/discrete Data for Machine Learning]]
-	1. [[#Result|Result]]
-1. [[#Decision Trees ClassificationProject|Decision Trees ClassificationProject]]
-	1. [[#Q&A|Q&A]]
-	1. [[#Results|Results]]
-1. [[#Evaluation Metric Project|Evaluation Metric Project]]
-1. [[#KNN Regression Project|KNN Regression Project]]
-1. [[#Decision Trees Regression Project|Decision Trees Regression Project]]
-1. [[#Knowledge|Knowledge]]
-	1. [[#Cross Validation|Cross Validation]]
-	1. [[#Distance Measurement|Distance Measurement]]
-	1. [[#Supervised Learning|Supervised Learning]]
-		1. [[#Classification|Classification]]
-		1. [[#Regression|Regression]]
-	1. [[#K-Nearest neighbors|K-Nearest neighbors]]
-	1. [[#Decision Tree|Decision Tree]]
-		1. [[#How Does the Decision Tree Algorithm Work?|How Does the Decision Tree Algorithm Work?]]
-		1. [[#Attribute Selection Measures|Attribute Selection Measures]]
-	1. [[#Theorie der Dimensionalität|Theorie der Dimensionalität]]
-	1. [[#Evaluation Metrics for Classification|Evaluation Metrics for Classification]]
-		1. [[#Q&A|Q&A]]
-		1. [[Wahrheitsmatrix)](#Confusion Matrix (Wahrheitsmatrix|Confusion Matrix (Wahrheitsmatrix)]])
-		1. [[#The Role of a Confusion Matrix|The Role of a Confusion Matrix]]
-		1. [[#F1 Score - Regulating Parameter for Extreme Case|F1 Score - Regulating Parameter for Extreme Case]]
-		1. [[#ROC|ROC]]
-		1. [[#Generalisierung|Generalisierung]]
-	1. [[#Evaluation Metrics for Regression|Evaluation Metrics for Regression]]
-	1. [[#Algorithm Quantitative Comparision|Algorithm Quantitative Comparision]]
+1. [VOCABULARY](#VOCABULARY)
+1. [Introduction in Supervised learning Project](#Introduction%20in%20Supervised%20learning%20Project)
+1. [PCA Project](#PCA%20Project)
+1. [KNN Classification Project](#KNN%20Classification%20Project)
+	1. [Handling Machine Learning Discrete/Categorical Data](#Handling%20Machine%20Learning%20Discrete/Categorical%20Data)
+		1. [Numerize categorical/discrete Data for Machine Learning](#Numerize%20categorical/discrete%20Data%20for%20Machine%20Learning)
+	1. [Result](#Result)
+1. [Decision Trees ClassificationProject](#Decision%20Trees%20ClassificationProject)
+	1. [Q&A](#Q&A)
+	1. [Results](#Results)
+1. [Evaluation Metric Project](#Evaluation%20Metric%20Project)
+1. [KNN Regression Project](#KNN%20Regression%20Project)
+1. [Decision Trees Regression Project](#Decision%20Trees%20Regression%20Project)
+1. [Knowledge](#Knowledge)
+	1. [Cross Validation](#Cross%20Validation)
+	1. [Distance Measurement](#Distance%20Measurement)
+	1. [Supervised Learning](#Supervised%20Learning)
+		1. [Classification](#Classification)
+		1. [Regression](#Regression)
+	1. [K-Nearest neighbors](#K-Nearest%20neighbors)
+	1. [Decision Tree](#Decision%20Tree)
+		1. [How Does the Decision Tree Algorithm Work?](#How%20Does%20the%20Decision%20Tree%20Algorithm%20Work?)
+		1. [Attribute Selection Measures](#Attribute%20Selection%20Measures)
+	1. [Theorie der Dimensionalität](#Theorie%20der%20Dimensionalität)
+	1. [Evaluation Metrics for Classification](#Evaluation%20Metrics%20for%20Classification)
+		1. [Q&A](#Q&A)
+		1. [](Wahrheitsmatrix)](#Confusion%20Matrix%20(Wahrheitsmatrix|Confusion%20Matrix%20(Wahrheitsmatrix)))
+		1. [The Role of a Confusion Matrix](#The%20Role%20of%20a%20Confusion%20Matrix)
+		1. [F1 Score - Regulating Parameter for Extreme Case](#F1%20Score%20-%20Regulating%20Parameter%20for%20Extreme%20Case)
+		1. [ROC](#ROC)
+		1. [Generalisierung](#Generalisierung)
+	1. [Evaluation Metrics for Regression](#Evaluation%20Metrics%20for%20Regression)
+	1. [Algorithm Quantitative Comparision](#Algorithm%20Quantitative%20Comparision)
 
 ## Image Grid
 ```image-layout-masonry-2
-![[attachment/212864a5aeb8593e31dd1866bacb3ebc.png]] 
-![[attachment/2ec9a6d3a88a9064fbff71355e0749e1.png]] 
-![[attachment/32bed32d49e786f617cc722679be3c5c.png]]
-![[attachment/daff335cd042d7411f6a631679eed8ed.png]]
+![212864a5aeb8593e31dd1866bacb3ebc](attachment/212864a5aeb8593e31dd1866bacb3ebc.png) 
+![2ec9a6d3a88a9064fbff71355e0749e1](attachment/2ec9a6d3a88a9064fbff71355e0749e1.png) 
+![32bed32d49e786f617cc722679be3c5c](attachment/32bed32d49e786f617cc722679be3c5c.png)
+![daff335cd042d7411f6a631679eed8ed](attachment/daff335cd042d7411f6a631679eed8ed.png)
 ```
 ## Kanban
 - Doesnt work
