@@ -2,7 +2,6 @@
 title: Supervised Learning Exercise
 ---
 
-# Supervised Learning - Classification & Regression
 ## Setup Dataset for Classification and Regression Model
 - After correct the identified errors in *Laborpraktikum_02*, data set is ready for modelling process, which is executed in *Python* with the help of following packets: 
 	- Pandas for transforming in Dataframe.
