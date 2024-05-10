@@ -51,8 +51,9 @@ $$
 > — George Eliot
 #### Activities
 ![](07603c3ac364fc229dbaefe05b4fc50f.png)
-*This is caption*
+*Fig.01 Caption done, set a better setup for universal caption image*
 
+Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are [already using Quartz](showcase.md) to publish personal notes, websites, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
 #### Changelog
 
 | New                                                                                                                                                                                                                                                                                    | Update | Drop                   |     |

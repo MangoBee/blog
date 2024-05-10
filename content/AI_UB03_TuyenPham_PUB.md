@@ -1,6 +1,3 @@
----
-title: Supervised Learning Excercise
----
 - Name: Tuyen Pham
 - Matnr.: s0590106
 # Supervised Learning - Classification & Regression
@@ -34,7 +31,7 @@ title: Supervised Learning Excercise
 > df[columns_to_convert] = df[columns_to_convert].astype(str)
 > 
 > # One-hot encoding categorical data
-> X_encoded = OneHotEncoder().fit_transform(df["Maschine", "Produkt"]("Maschine",%20"Produkt"))
+> X_encoded = OneHotEncoder().fit_transform(df[["Maschine", "Produkt"]])
 > # Convert to dataframe & Rename
 > X_encoded = pd.DataFrame(X_encoded.toarray())
 > X_encoded = X_encoded.rename(columns={0: 'Maschine A', 1: 'Maschine B', 2: 'Maschine C', 3: 'Maschine D', 4: 'Produkt X', 5: 'Produkt Y'})
@@ -65,7 +62,9 @@ title: Supervised Learning Excercise
 	- Program cumulative PCA with Sklearn and Numpy packets.
 	- Visualize Cumulative Principle components.
 **Results**
-undefined
+![](ae22cc653adbe313b069008f43580e4a.png)
+*Fig.01 Cummulative Explained Variance vs. Number of Pricipal Components*
+
 - Accoding to this, at least four features can be ignored without information lost.
 - In this example, except *Mode* whole features in dataset is used. The numerizing process categorical data yield in total 13 features.
 
@@ -82,7 +81,9 @@ undefined
 
 #### Cross Validation
 - In the code, we use the KNN model on our data with fivefold cross-validation. This means the data is split into five parts, and the model is trained on four of them while testing on the remaining one. The process is repeated for each group, and the average accuracy score helps us identify the best-performing model. After that we plot this in 2D Graph to get a better overview.
-undefined
+![](90529f9a6fd1ee5cee37658eade17b4e.png)
+*Fig.02 Cross Validation*
+
 - The graph suggest that for the best result shall be chosen in range from 6 to 13. For better generalisation, k = 13 is picked. After rerun with new k, the accuracy stay the same. 
 - For testing purposes, testing with k = 50 result accuracy dropping only 0.97, which show that model quite robust with large k given only 200 rows of data from test set.
 > [!example]- Cross Validation Code Snippet
@@ -147,7 +148,8 @@ undefined
 
 **Result:**
 For k = 13
-undefined
+![](6fa692ca7297fd64a2c2034eb85552ff.png)
+*Fig.03 Confusion Matrix*
 
 |  | precision | recall | f1-score | support |
 | ---- | ---- | ---- | ---- | ---- |
@@ -206,8 +208,11 @@ undefined
 > ```
 
 **Results without pre-pruning:**
-undefined
-undefined
+![](fb82319975a3f4d97219dadf48a8f35a.png)
+*Fig.04 Decision Tree without Pre-pruning*
+
+![](c16173ff963e4790061b28d42fde97c8.png)
+*Fig.05 Confusion Matrix*
 
 |  | precision | recall | f1-score | support |
 | ---- | ---- | ---- | ---- | ---- |
@@ -219,8 +224,11 @@ undefined
 Accuracy: 0.98
 
 **Results with pre-pruning:**
-undefined
-undefined
+![](f7ac85eb7a64d83925b73dde35ee474d.png)
+*Fig.06 Decision Tree with Pre-pruning*
+
+![](cb1b9b0e3d7c047b4759898bd91d3623.png)
+*Fig.07 Confusion Matrix*
 
 |  | precision | recall | f1-score | support |
 | ---- | ---- | ---- | ---- | ---- |
@@ -234,7 +242,9 @@ Accuracy: 0.98
 ### Intepretation
 - The performance of pruned and unpruned machine learning process arent much different, however, the decision tree is much easier to explain. 
 - In term of classification, both KNN and Decision Tree perform pretty well and quite the same. So the chosen process is come down to the characteristic of each algorithm itself.
-undefined
+![](067eb4c95509af0b5ef65d9ac856b27b.png)
+*Fig.08 Qualitative assessment of the algorithms with regard to classification and training time as well as generalization. (@matzkaKunstlicheIntelligenzIngenieurwissenschaften2021)*
+
 - Base on this evaluation in lecture script. Given that classification time and training time doesnt matter in this project since the code run in a single of click without any delays. KNN is chosen because of better generalisation.
 
 ## Regression
@@ -261,7 +271,9 @@ undefined
 
 ### KNN Regression
 - Target value is now *Temp Werkzeug* and the rest is convert to features in dataframe format.
-undefined
+![](e820aa88d040d595b7ec84373e86b9cf.png)
+*Fig.09 KNN Regression: Mean Squared Error vs. k-number*
+
 - As cross validation for Mean Square Error (MSE) show, larger k worsen MSE. We want to keep MSE as small as possible. So therefore, k should be around 5 to 8.
 - Beside MSE, we code Mean Absolute Error (MAE), Root Mean Squared Error (RMSE) for comparision with MSE. For better understanding the scale of error, relative Mean Absolute Error (MAPE) is programed and R2 Score for quality comparision between algorithm.
 > [!example]- KNN Regression Code Snippet
@@ -363,7 +375,9 @@ For k = 5
 > ```
 
 **Result:**
-undefined
+![](ae0ab6253f73f564db801502cb657b12.png)
+*Fig.10 Pruned Decision Tree Regression*
+
 - MAE: 1.2600
 - MSE: 2.4477
 - RMSE: 1.5645
