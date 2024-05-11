@@ -39,7 +39,6 @@ export const defaultContentPageLayout: PageLayout = {
       title: "Most recent",
       limit: 5
     })),
-    Component.MobileOnly(Component.Spacer()),
     Component.MobileOnly(Component.Explorer()),
   ],
 }
