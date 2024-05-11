@@ -33,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.TableOfContents(),
     Component.MobileOnly(Component.RecentNotes({
       title: "Most recent",
       limit: 5
