@@ -9,7 +9,7 @@ title: Homepage
 May i humble present for you my very first website. I'm MangoBee, currently study *Engergy & Automation M.sc* in Berlin, Germany. Although not from programming background, IT and Digitalisation is my late hobby. As i more into it, i found it so powerful that for example with this website, or more of a blog for me, i now have a portal to connect to all the readers around the world. There is the truth that i am not what i am today without internet, even this page, where i am writing right now, is also a product of networking and sharing. It is indeed a right time for me to give some contribution back by sharing my tiny knowledge on some interesting yet essential topics that might somehow help you as it was helped me along my journey,  so stay tuned!
 
 ## Folder Listing
-![[content/]]
+![[Archive/]]
 ## CHANGELOG
 | New                                                           | Upcomming                                                                            | Update   |
 | :------------------------------------------------------------ | :----------------------------------------------------------------------------------- | :------- |
