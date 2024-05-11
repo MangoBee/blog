@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import Divider_TopoDaMente from "./quartz/components/Divider_@topo-da-mente"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -25,7 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.Search(),
     Component.Darkmode(),
-    Component.Divider(),
+    Component.Divider_@Divider_TopoDaMente(),
     Component.MobileOnly(Component.Spacer()),
     Component.RecentNotes(),
     Component.DesktopOnly(Component.Explorer()),
