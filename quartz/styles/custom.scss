@@ -3,22 +3,18 @@
 // put your custom CSS here!
 
 // Test
-// Sidebars
+
+
+// Right Sidebars: content vertical display on mobile
 .page {
     > #quartz-body {
         .sidebar {
             &.right {
-                right: calc(50vw - 727px);
                 > * {
                     flex: 1 1 100%;
                 }
             }
-            &.left {
-                left: calc(50vw - 727px);
-                hr {
-                    margin: 0.125em 0 2em;
-                }
-            }
+
         }
     }
 }
