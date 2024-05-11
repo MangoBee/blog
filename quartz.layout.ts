@@ -1,6 +1,5 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import Divider_TopoDaMente from "./quartz/components/Divider_@topo-da-mente"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -25,8 +24,8 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Darkmode(),
     Component.Search(), 
+    Component.Darkmode(),
     Component.DesktopOnly(Component.RecentNotes({
       title: "Most recent",
       limit: 5
