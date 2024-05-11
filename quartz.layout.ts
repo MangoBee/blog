@@ -7,8 +7,8 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/MangoBee",
-      LinkedIn: "linkedin.com/in/tuyenpham0934",
+      "GitHub": "https://github.com/MangoBee",
+      "LinkedIn": "linkedin.com/in/tuyenpham0934",
     },
   }),
 }
@@ -23,17 +23,17 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.Explorer(),
-    Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-
+    Component.Divider(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.RecentNotes(),
+    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-    Component.RecentNotes(),
+
+    
   ],
 }
 
