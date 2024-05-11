@@ -24,9 +24,9 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
     Component.Darkmode(),
     Component.Search(), 
-    Component.MobileOnly(Component.Spacer()),
     Component.DesktopOnly(Component.RecentNotes({
       title: "Most recent",
       limit: 5
@@ -35,6 +35,12 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.MobileOnly(Component.RecentNotes({
+      title: "Most recent",
+      limit: 5
+    })),
+    Component.MobileOnly(Component.Spacer()),
+    Component.MobileOnly(Component.Explorer()),
   ],
 }
 
