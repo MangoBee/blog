@@ -22,9 +22,9 @@ PageTitle.css = `
   margin: 0;
 }
 .Logo {
-max-height: 180px;
+max-height: 150px;
 min-height: 50px;
-max-width: 180px;
+max-width: 150px;
 min-width: 50px;
 }
 `
