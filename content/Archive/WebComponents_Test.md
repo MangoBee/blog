@@ -66,38 +66,36 @@ Quartz is a fast, batteries-included static-site generator that transforms Markd
 #### Workspace
 
 #### Achievements
-- [x](Templater_PL) ✅ 2023-11-03
+- [x] random text
 
 #### Challenges
-- [-](JobMarket) ⏫
-- [f] Pip install causing imcompatible in Ubuntu
-- [?] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
+- [f] random text
+- [?] random text
 
 #### Future
-- [ ] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
-- [/] Callouts is cool, what you can learn more about it?
-- [<](JobMarket) ⏫
-- [>] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
-- [I] Job Application
+- [ ] random text
+- [<] random text
+- [>] random text
+- [I] random text
 
 #### Information
-- ["] Rename and reother Navigator Tree
-- [b] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
-- [i] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
+- ["] random text
+- [b] random text
+- [i] random text
 
 #### INFORMATION
-- [*](Templater_PL)
-- [!] Create a Update file for Potential Improvement to avoid chaotic and random update
-- [p] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
-- [c] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
-- [d] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
-- [u] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
-- [l] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
+- [*] random text
+- [!] random text
+- [p] random text
+- [c] random text
+- [d] random text
+- [u] random text
+- [l] random text
 
 #### Rewards
-- [S] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
-- [k] Chinh lai Full Calendar, Only one DailyCalendar allow !!!
-- [w] Optimize initial time in Obsidian Mobile
+- [S] random text
+- [k] random text
+- [w] random text
 ## Table of Contents
 
 1. [VOCABULARY](#VOCABULARY)
