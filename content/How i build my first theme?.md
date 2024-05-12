@@ -55,8 +55,8 @@ Three core elements of any markdown text is locked, now we can move on to other 
 	- Text if declare under code environment will be render with different font and style. You can define language what language are presented in code block to make it tranform into right color pallete of that language.
 	- So the color you define here is on general environment where no specific language is defined. I stick with same color as plain text since its already have seperate border line and background.
 - Follow these principle helps me to create my favorite custom nord theme which i still use till today. Hope these helps you on your journey to build your dream theme!
-![](attachment/72bb0d8bed8c3571a82a361c1a7207e0.png)
-![](attachment/11a3936e9ae5e076ee2787e6b2d907fd.png)
+![](72bb0d8bed8c3571a82a361c1a7207e0.png)
+![](11a3936e9ae5e076ee2787e6b2d907fd.png)
 
 ## More Style - More Font
 - **header:** Font to use for headers - `Rajdhani`
