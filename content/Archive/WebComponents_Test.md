@@ -1,5 +1,5 @@
 ---
-date: 05.05.2024
+date: 05.05.24
 ---
 # Header
 ## Header
