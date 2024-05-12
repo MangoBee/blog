@@ -1,3 +1,9 @@
+---
+title: How i build my first theme?
+Object:
+  - "[[Obsidian]]"
+  - "[[Quartz]]"
+---
 
 ## Understanding the concept
 - I have a clear objective of this project: i will try to replicate my all time favorite theme: [Nord](https://www.nordtheme.com/)
