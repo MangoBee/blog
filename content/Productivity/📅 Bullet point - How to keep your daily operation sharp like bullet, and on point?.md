@@ -1,8 +1,8 @@
 ---
-title:
+title: 
 draft: false
-description:
-aliases:
+description: 
+aliases: 
 tags: 
 date: 2024-01-01
 Status: 🔃
