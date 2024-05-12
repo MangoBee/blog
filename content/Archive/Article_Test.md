@@ -1,5 +1,6 @@
 ---
 title: Supervised Learning Study Book
+date: 05.05.2024
 ---
 
 ## VOCABULARY

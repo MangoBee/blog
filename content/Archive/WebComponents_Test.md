@@ -1,3 +1,6 @@
+---
+date: 05.05.2024
+---
 # Header
 ## Header
 ### Header
@@ -6,7 +9,7 @@
 ###### Header
 ## Basic Syntax
 1. Link: [Obsidian](Obsidian)
-2. Tag: #ObsidianTagSyntax 
+2. Tag: #testtag01  
 3. Italic: *asterisks*
 4. Bold: **Big Nouns**
 5. List: Dash 

@@ -3,6 +3,13 @@ title: How i build my first theme?
 Object:
   - "[[Obsidian]]"
   - "[[Quartz]]"
+description: This is a test description
+aliases:
+  - Quartz custom theme
+tags:
+  - testtag01
+  - testtag02
+date: 2024-05-07
 ---
 
 ## Understanding the concept
