@@ -36,7 +36,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Explorer({
       title: "Navigation",
     })),
-    Component.Backlinks(),
   ],
 }
 

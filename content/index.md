@@ -25,10 +25,12 @@ May i humble present for you my very first website. I'm MangoBee, currently stud
 	- Rating
 	- Dificulty
 	- State of Art
-why to use tag this instead of wikilinks?
-- wikilink in quartz is limited, graph view is scuff, not easy to view or search, backlinks is the functions. So its does mean that linking relationship doesnt show to its fullest.
-- Its a default group/classified note by specific tags, properties doesnt work here #Advanced 
-- Its the only way to show classification and property of that note
+## Wikilink
+- [?] why to use tag this instead of wikilinks?
+	- wikilink in quartz is limited, graph view is scuff, not easy to view or search, backlinks is the functions. So its does mean that linking relationship doesnt show to its fullest.
+	- Its a default group/classified note by specific tags, properties doesnt work here #Advanced 
+	- Its the only way to show classification and property of that note
+- [c] Backlinks is scuff, since it doesnt backlinks to its folder note.
 ## CHANGELOG
 | New                                                           | Upcomming                                                                            | Update   |
 | :------------------------------------------------------------ | :----------------------------------------------------------------------------------- | :------- |

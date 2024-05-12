@@ -10,3 +10,5 @@ object:
   - "[[Article_Test]]"
 ---
 #Advanced 
+## Introduction
+Is obsidian just a note taking?
