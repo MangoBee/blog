@@ -21,6 +21,6 @@ why to use this instead of wikilinks?
 ## CHANGELOG
 | New                                                           | Upcomming                                                                            | Update   |
 | :------------------------------------------------------------ | :----------------------------------------------------------------------------------- | :------- |
-| [How i build my first theme?](How%20i%20build%20my%20first%20theme?.md)                               | [Why plain text so important in digital era?](Why%20plain%20text%20so%20important%20in%20digital%20era?)                                      | [WebComponents_Test](WebComponents_Test.md) |
-| [Supervised Learning](SupervisedLearning_Summary_TuyenPham%5C) | [Bullet point - How to keep your daily operation sharp like bullet, and on point?](Bullet%20point%20-%20How%20to%20keep%20your%20daily%20operation%20sharp%20like%20bullet,%20and%20on%20point?) |          |
+| [How i build my first theme?](How%20i%20build%20my%20first%20theme?.md)                               | [🔃 Why plain text so important in digital era?](🔃%20Why%20plain%20text%20so%20important%20in%20digital%20era?.md)                                      | [WebComponents_Test](WebComponents_Test.md) |
+| [Supervised Learning](SupervisedLearning_Summary_TuyenPham%5C) | [📅 Bullet point - How to keep your daily operation sharp like bullet, and on point?](📅%20Bullet%20point%20-%20How%20to%20keep%20your%20daily%20operation%20sharp%20like%20bullet,%20and%20on%20point?.md) |          |
 | [Supervised Learning Exercise](AI_UB03_TuyenPham_PUB%5C)       |                                                                                      |          |

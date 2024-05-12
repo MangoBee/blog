@@ -8,7 +8,7 @@ date: 2024-05-07
 ##### Header
 ###### Header
 ## Basic Syntax
-1. Link: [Obsidian](Obsidian)
+1. Link: [Obsidian](Obsidian.md)
 2. Tag: `#testtag01 ` 
 3. Italic: *asterisks*
 4. Bold: **Big Nouns**
