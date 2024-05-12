@@ -9,16 +9,25 @@ date: 2024-05-05
 ---
 May i humble present for you my very first website. I'm MangoBee, currently study *Engergy & Automation M.sc* in Berlin, Germany. Although not from programming background, IT and Digitalisation is my late hobby. As i more into it, i found it so powerful that for example with this website, or more of a blog for me, i now have a portal to connect to all the readers around the world. There is the truth that i am not what i am today without internet, even this page, where i am writing right now, is also a product of networking and sharing. It is indeed a right time for me to give some contribution back by sharing my tiny knowledge on some interesting yet essential topics that might somehow help you as it was helped me along my journey,  so stay tuned!
 
-## Folder Listing
+## Content
 - [[AI/]]
 - [[Automation/]]
 - [[Energy/]]
-- 
-## Tag Listing
-[[tags/]]
-[[tags/#ObsidianTagSyntax]] 
-
-why to use this instead of wikilinks?
+- [[Interest/]]
+- [[IT/]]
+- [[Productivity/]]
+## Tag
+- Having not good experience in the pass about tags, tag for me and most of people too flexible. However its a default plugins in quartz that offer a tag listing view that work like data aggregation or dataview in [[Obsidian]]. Since there is no such a way to show or grouping meta data of each note in [[Quartz]], tag is a natural choice
+- For contaiminateless future proof (as tags tend to be), we will carefully choose a limit number of tags that following these properties:
+	- Function
+	- Objectives
+	- Subjects
+	- Rating
+	- Dificulty
+	- State of Art
+why to use tag this instead of wikilinks?
+- wikilink in quartz is limited, graph view is scuff, not easy to view or search, backlinks is the functions. So its does mean that linking relationship doesnt show to its fullest.
+- Its a default group/classified note by specific tags, properties doesnt work here #Advanced 
 - Its the only way to show classification and property of that note
 ## CHANGELOG
 | New                                                           | Upcomming                                                                            | Update   |
