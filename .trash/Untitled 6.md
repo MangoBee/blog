@@ -1,9 +1,4 @@
 ---
-aliases:
-  - Frontmatter_TP
-  - Properties_TP
----
----
 title:
 draft: false
 description:

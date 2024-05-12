@@ -1,8 +1,8 @@
 ---
-title:
+title: IT
 draft: false
-description:
-aliases:
+description: 
+aliases: 
 tags: 
 date: 2024-01-01
 ---
