@@ -1,5 +1,5 @@
 ---
-date: 05.05.24
+date: 2024-05-07
 ---
 
 - Okular is a powerful pdf editor with advanced searching tools

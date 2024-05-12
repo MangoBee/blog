@@ -39,6 +39,8 @@ export const defaultContentPageLayout: PageLayout = {
       limit: 5
     })),
     Component.MobileOnly(Component.Explorer()),
+    Component.Backlinks(),
+    Component.Graph(),
   ],
 }
 

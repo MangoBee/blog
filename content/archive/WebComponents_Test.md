@@ -1,5 +1,5 @@
 ---
-date: 05.05.24
+date: 2024-05-07
 ---
 # Header
 ## Header
@@ -9,7 +9,7 @@ date: 05.05.24
 ###### Header
 ## Basic Syntax
 1. Link: [Obsidian](Obsidian)
-2. Tag: #testtag01  
+2. Tag: `#testtag01 ` 
 3. Italic: *asterisks*
 4. Bold: **Big Nouns**
 5. List: Dash 

@@ -1,6 +1,6 @@
 ---
 title: Supervised Learning Exercise
-date: 05.05.24
+date: 2024-05-07
 ---
 
 ## Setup Dataset for Classification and Regression Model

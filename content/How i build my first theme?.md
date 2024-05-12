@@ -1,15 +1,13 @@
 ---
 title: How i build my first theme?
-Object:
+object:
   - "[[Obsidian]]"
   - "[[Quartz]]"
-description: This is a test description
+description: This is a description
 aliases:
   - Quartz custom theme
-tags:
-  - testtag01
-  - testtag02
-date: 07.05.24
+tags: 
+date: 2024-05-09
 ---
 
 ## Understanding the concept
