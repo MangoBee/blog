@@ -9,7 +9,7 @@ date: 2024-05-05
 ---
 May i humble present for you my very first website. I'm MangoBee, currently study *Engergy & Automation M.sc* in Berlin, Germany. Although not from programming background, IT and Digitalisation is my late hobby. As i more into it, i found it so powerful that for example with this website, or more of a blog for me, i now have a portal to connect to all the readers around the world. There is the truth that i am not what i am today without internet, even this page, where i am writing right now, is also a product of networking and sharing. It is indeed a right time for me to give some contribution back by sharing my tiny knowledge on some interesting yet essential topics that might somehow help you as it was helped me along my journey,  so stay tuned!
 
-## Content#
+## Content
 - Doesnt work: [[content/]]
 - [[AI/]]
 - [[Automation/]]
@@ -55,3 +55,20 @@ Here will be a sneek peak to a article or notes that are under construction 🚧
 	- Level: Beginner
 	- Length: Medium
 	- Description: it is a outline of list that have structure create by tabs
+- 📅 Website Development: Graph View of linked Notes
+## Test
+this is a line without bullet
+	- Bullet one
+	- Bullet two
+## How to navigate around my blog
+Here in this homepage as a central waypoint where all means of guidances are listed here, including
+- Structures that come along in every pages, which will be found in left/right-sidebar in desktop, and bottom of the page in mobile
+	- Traditional hierarchy folder
+	- Recents Notes
+	- Table of contents
+- non-common structure like 
+	- *Tag*: global Tag-list
+	- *Content*: fullscale Subfolder-list
+	- *Upcoming*: sneakpeak on future topics
+	- *ToDo*: *Developement History*
+(Tipps: tag is work like a link that when click, will be redirects to local *Tag-list*)
