@@ -38,11 +38,11 @@ May i humble present for you my very first website. I'm MangoBee, currently stud
 - [x] THis is done task
 ## CHANGELOG
 
-| New                                                                     | Upcomming                                                                                                                                                                                                   | Update                                      |
-| :---------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------ |
+| New                                                                     | Upcomming                                                                                                                                                                                           | Update                                      |
+| :---------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------ |
 | [How i build my first theme?](How%20i%20build%20my%20first%20theme?.md) | [Why plain text so important in digital era?](Why%20plain%20text%20so%20important%20in%20digital%20era?.md)                                                                                         | [WebComponents_Test](WebComponents_Test.md) |
 | [Supervised Learning](SupervisedLearning_Summary_TuyenPham%5C)          | [Bullet point - How to keep your daily operation sharp like bullet, and on point?](Bullet%20point%20-%20How%20to%20keep%20your%20daily%20operation%20sharp%20like%20bullet,%20and%20on%20point?.md) |                                             |
-| [Supervised Learning Exercise](AI_UB03_TuyenPham_PUB%5C)                |                                                                                                                                                                                                             |                                             |
+| [Supervised Learning Exercise](AI_UB03_TuyenPham_PUB%5C)                |                                                                                                                                                                                                     |                                             |
 As you can see, table is not suitable to build contents with long title. Best convention is to breaking down into headings
 
 ## Upcoming #📅
