@@ -46,18 +46,18 @@ May i humble present for you my very first website. I'm MangoBee, currently stud
 As you can see, table is not suitable to build contents with long title. Best convention is to breaking down into headings
 
 ## Upcoming #📅
-Here will be a sneek peak to a article or notes that are under construction 🚧.
+Here will be a sneek peak to a article or notes that are under construction.
 - [Why plain text so important in digital era?](Why%20plain%20text%20so%20important%20in%20digital%20era?.md)
-	- Category: IT
-	- Level: Beginner
-	- Length: Medium
-	- Description: plain text is a common term that everybody know
+	- Category: IT (can be simply replace by tag)
+	- Level: Beginner (can be simply replace by tag)
+	- Length: Medium (can be simply replace by tag)
+	- Description: plain text is a common term that everybody know (can be simply replace by tag)
 - [[Bullet point - How to keep your daily operation sharp like bullet, and on point?]]
 	- Category: IT
 	- Level: Beginner
 	- Length: Medium
 	- Description: it is a outline of list that have structure create by tabs
-- 📅 Website Development: Graph View of linked Notes
+- Website Development: Graph View of linked Notes
 ## Test
 this is a line without bullet
 	- Bullet one
